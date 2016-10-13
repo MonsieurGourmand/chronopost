@@ -1,0 +1,12 @@
+
+# phpstorm
+.idea/
+
+# mac
+.DS_Store
+
+# svn
+.svn
+
+#libraries
+vendor/
