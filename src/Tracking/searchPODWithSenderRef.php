@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class searchPODWithSenderRef
 {
@@ -48,7 +48,7 @@ class searchPODWithSenderRef
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\Tracking\searchPODWithSenderRef
+     * @return \Chronopost\Tracking\searchPODWithSenderRef
      */
     public function setAccountNumber($accountNumber)
     {
@@ -66,7 +66,7 @@ class searchPODWithSenderRef
 
     /**
      * @param string $password
-     * @return \Chonopost\Tracking\searchPODWithSenderRef
+     * @return \Chronopost\Tracking\searchPODWithSenderRef
      */
     public function setPassword($password)
     {
@@ -84,7 +84,7 @@ class searchPODWithSenderRef
 
     /**
      * @param string $language
-     * @return \Chonopost\Tracking\searchPODWithSenderRef
+     * @return \Chronopost\Tracking\searchPODWithSenderRef
      */
     public function setLanguage($language)
     {
@@ -102,7 +102,7 @@ class searchPODWithSenderRef
 
     /**
      * @param string $sendersRef
-     * @return \Chonopost\Tracking\searchPODWithSenderRef
+     * @return \Chronopost\Tracking\searchPODWithSenderRef
      */
     public function setSendersRef($sendersRef)
     {
@@ -120,7 +120,7 @@ class searchPODWithSenderRef
 
     /**
      * @param boolean $pdf
-     * @return \Chonopost\Tracking\searchPODWithSenderRef
+     * @return \Chronopost\Tracking\searchPODWithSenderRef
      */
     public function setPdf($pdf)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class resultCalculateProducts
 {
@@ -38,7 +38,7 @@ class resultCalculateProducts
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Quickcost\resultCalculateProducts
+     * @return \Chronopost\Quickcost\resultCalculateProducts
      */
     public function setErrorCode($errorCode)
     {
@@ -56,7 +56,7 @@ class resultCalculateProducts
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Quickcost\resultCalculateProducts
+     * @return \Chronopost\Quickcost\resultCalculateProducts
      */
     public function setErrorMessage($errorMessage)
     {
@@ -74,7 +74,7 @@ class resultCalculateProducts
 
     /**
      * @param product[] $productList
-     * @return \Chonopost\Quickcost\resultCalculateProducts
+     * @return \Chronopost\Quickcost\resultCalculateProducts
      */
     public function setProductList(array $productList = null)
     {

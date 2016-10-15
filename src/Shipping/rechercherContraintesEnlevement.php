@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class rechercherContraintesEnlevement
 {
@@ -36,7 +36,7 @@ class rechercherContraintesEnlevement
 
     /**
      * @param string $country
-     * @return \Chonopost\Shipping\rechercherContraintesEnlevement
+     * @return \Chronopost\Shipping\rechercherContraintesEnlevement
      */
     public function setCountry($country)
     {
@@ -54,7 +54,7 @@ class rechercherContraintesEnlevement
 
     /**
      * @param string $zipCode
-     * @return \Chonopost\Shipping\rechercherContraintesEnlevement
+     * @return \Chronopost\Shipping\rechercherContraintesEnlevement
      */
     public function setZipCode($zipCode)
     {
@@ -72,7 +72,7 @@ class rechercherContraintesEnlevement
 
     /**
      * @param string $city
-     * @return \Chonopost\Shipping\rechercherContraintesEnlevement
+     * @return \Chronopost\Shipping\rechercherContraintesEnlevement
      */
     public function setCity($city)
     {

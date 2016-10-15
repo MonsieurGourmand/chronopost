@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class searchPOD
 {
@@ -48,7 +48,7 @@ class searchPOD
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\Tracking\searchPOD
+     * @return \Chronopost\Tracking\searchPOD
      */
     public function setAccountNumber($accountNumber)
     {
@@ -66,7 +66,7 @@ class searchPOD
 
     /**
      * @param string $password
-     * @return \Chonopost\Tracking\searchPOD
+     * @return \Chronopost\Tracking\searchPOD
      */
     public function setPassword($password)
     {
@@ -84,7 +84,7 @@ class searchPOD
 
     /**
      * @param string $language
-     * @return \Chonopost\Tracking\searchPOD
+     * @return \Chronopost\Tracking\searchPOD
      */
     public function setLanguage($language)
     {
@@ -102,7 +102,7 @@ class searchPOD
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Tracking\searchPOD
+     * @return \Chronopost\Tracking\searchPOD
      */
     public function setSkybillNumber($skybillNumber)
     {
@@ -120,7 +120,7 @@ class searchPOD
 
     /**
      * @param boolean $pdf
-     * @return \Chonopost\Tracking\searchPOD
+     * @return \Chronopost\Tracking\searchPOD
      */
     public function setPdf($pdf)
     {

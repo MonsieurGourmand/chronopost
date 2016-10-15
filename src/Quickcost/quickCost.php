@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class quickCost
 {
@@ -56,7 +56,7 @@ class quickCost
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\Quickcost\quickCost
+     * @return \Chronopost\Quickcost\quickCost
      */
     public function setAccountNumber($accountNumber)
     {
@@ -74,7 +74,7 @@ class quickCost
 
     /**
      * @param string $password
-     * @return \Chonopost\Quickcost\quickCost
+     * @return \Chronopost\Quickcost\quickCost
      */
     public function setPassword($password)
     {
@@ -92,7 +92,7 @@ class quickCost
 
     /**
      * @param string $depCode
-     * @return \Chonopost\Quickcost\quickCost
+     * @return \Chronopost\Quickcost\quickCost
      */
     public function setDepCode($depCode)
     {
@@ -110,7 +110,7 @@ class quickCost
 
     /**
      * @param string $arrCode
-     * @return \Chonopost\Quickcost\quickCost
+     * @return \Chronopost\Quickcost\quickCost
      */
     public function setArrCode($arrCode)
     {
@@ -128,7 +128,7 @@ class quickCost
 
     /**
      * @param string $weight
-     * @return \Chonopost\Quickcost\quickCost
+     * @return \Chronopost\Quickcost\quickCost
      */
     public function setWeight($weight)
     {
@@ -146,7 +146,7 @@ class quickCost
 
     /**
      * @param string $productCode
-     * @return \Chonopost\Quickcost\quickCost
+     * @return \Chronopost\Quickcost\quickCost
      */
     public function setProductCode($productCode)
     {
@@ -164,7 +164,7 @@ class quickCost
 
     /**
      * @param string $type
-     * @return \Chonopost\Quickcost\quickCost
+     * @return \Chronopost\Quickcost\quickCost
      */
     public function setType($type)
     {

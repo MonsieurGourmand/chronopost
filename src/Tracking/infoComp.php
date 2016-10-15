@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class infoComp
 {
@@ -31,7 +31,7 @@ class infoComp
 
     /**
      * @param string $name
-     * @return \Chonopost\Tracking\infoComp
+     * @return \Chronopost\Tracking\infoComp
      */
     public function setName($name)
     {
@@ -49,7 +49,7 @@ class infoComp
 
     /**
      * @param string $value
-     * @return \Chonopost\Tracking\infoComp
+     * @return \Chronopost\Tracking\infoComp
      */
     public function setValue($value)
     {

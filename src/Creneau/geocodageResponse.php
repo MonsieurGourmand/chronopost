@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class geocodageResponse extends wsResponse
 {
@@ -38,7 +38,7 @@ class geocodageResponse extends wsResponse
 
     /**
      * @param float $lat
-     * @return \Chonopost\Creneau\geocodageResponse
+     * @return \Chronopost\Creneau\geocodageResponse
      */
     public function setLat($lat)
     {
@@ -56,7 +56,7 @@ class geocodageResponse extends wsResponse
 
     /**
      * @param float $lon
-     * @return \Chonopost\Creneau\geocodageResponse
+     * @return \Chronopost\Creneau\geocodageResponse
      */
     public function setLon($lon)
     {
@@ -74,7 +74,7 @@ class geocodageResponse extends wsResponse
 
     /**
      * @param int $niveauQualite
-     * @return \Chonopost\Creneau\geocodageResponse
+     * @return \Chronopost\Creneau\geocodageResponse
      */
     public function setNiveauQualite($niveauQualite)
     {

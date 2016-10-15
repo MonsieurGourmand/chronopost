@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class product
 {
@@ -47,7 +47,7 @@ class product
 
     /**
      * @param float $amount
-     * @return \Chonopost\Quickcost\product
+     * @return \Chronopost\Quickcost\product
      */
     public function setAmount($amount)
     {
@@ -65,7 +65,7 @@ class product
 
     /**
      * @param float $amountTTC
-     * @return \Chonopost\Quickcost\product
+     * @return \Chronopost\Quickcost\product
      */
     public function setAmountTTC($amountTTC)
     {
@@ -83,7 +83,7 @@ class product
 
     /**
      * @param float $amountTVA
-     * @return \Chonopost\Quickcost\product
+     * @return \Chronopost\Quickcost\product
      */
     public function setAmountTVA($amountTVA)
     {
@@ -101,7 +101,7 @@ class product
 
     /**
      * @param string $productCode
-     * @return \Chonopost\Quickcost\product
+     * @return \Chronopost\Quickcost\product
      */
     public function setProductCode($productCode)
     {

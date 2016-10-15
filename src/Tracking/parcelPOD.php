@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class parcelPOD
 {
@@ -50,7 +50,7 @@ class parcelPOD
 
     /**
      * @param string $formatPOD
-     * @return \Chonopost\Tracking\parcelPOD
+     * @return \Chronopost\Tracking\parcelPOD
      */
     public function setFormatPOD($formatPOD)
     {
@@ -68,7 +68,7 @@ class parcelPOD
 
     /**
      * @param base64Binary $pod
-     * @return \Chonopost\Tracking\parcelPOD
+     * @return \Chronopost\Tracking\parcelPOD
      */
     public function setPod($pod)
     {
@@ -86,7 +86,7 @@ class parcelPOD
 
     /**
      * @param boolean $podPresente
-     * @return \Chonopost\Tracking\parcelPOD
+     * @return \Chronopost\Tracking\parcelPOD
      */
     public function setPodPresente($podPresente)
     {
@@ -104,7 +104,7 @@ class parcelPOD
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Tracking\parcelPOD
+     * @return \Chronopost\Tracking\parcelPOD
      */
     public function setSkybillNumber($skybillNumber)
     {
@@ -122,7 +122,7 @@ class parcelPOD
 
     /**
      * @param int $statusCode
-     * @return \Chonopost\Tracking\parcelPOD
+     * @return \Chronopost\Tracking\parcelPOD
      */
     public function setStatusCode($statusCode)
     {

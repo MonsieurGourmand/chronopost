@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class resultReservationMultiParcelExpeditionValue
 {
@@ -58,7 +58,7 @@ class resultReservationMultiParcelExpeditionValue
 
     /**
      * @param string $ESDFullNumber
-     * @return \Chonopost\Shipping\resultReservationMultiParcelExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationMultiParcelExpeditionValue
      */
     public function setESDFullNumber($ESDFullNumber)
     {
@@ -76,7 +76,7 @@ class resultReservationMultiParcelExpeditionValue
 
     /**
      * @param string $ESDNumber
-     * @return \Chonopost\Shipping\resultReservationMultiParcelExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationMultiParcelExpeditionValue
      */
     public function setESDNumber($ESDNumber)
     {
@@ -94,7 +94,7 @@ class resultReservationMultiParcelExpeditionValue
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Shipping\resultReservationMultiParcelExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationMultiParcelExpeditionValue
      */
     public function setErrorCode($errorCode)
     {
@@ -112,7 +112,7 @@ class resultReservationMultiParcelExpeditionValue
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Shipping\resultReservationMultiParcelExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationMultiParcelExpeditionValue
      */
     public function setErrorMessage($errorMessage)
     {
@@ -138,7 +138,7 @@ class resultReservationMultiParcelExpeditionValue
 
     /**
      * @param \DateTime $pickupDate
-     * @return \Chonopost\Shipping\resultReservationMultiParcelExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationMultiParcelExpeditionValue
      */
     public function setPickupDate(\DateTime $pickupDate = null)
     {
@@ -160,7 +160,7 @@ class resultReservationMultiParcelExpeditionValue
 
     /**
      * @param string $reservationNumber
-     * @return \Chonopost\Shipping\resultReservationMultiParcelExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationMultiParcelExpeditionValue
      */
     public function setReservationNumber($reservationNumber)
     {
@@ -178,7 +178,7 @@ class resultReservationMultiParcelExpeditionValue
 
     /**
      * @param resultParcelValue[] $resultParcelValue
-     * @return \Chonopost\Shipping\resultReservationMultiParcelExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationMultiParcelExpeditionValue
      */
     public function setResultParcelValue(array $resultParcelValue = null)
     {

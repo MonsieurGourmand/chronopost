@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shippingInfo
 {
@@ -66,7 +66,7 @@ class shippingInfo
 
     /**
      * @param string $asCode
-     * @return \Chonopost\Shipping\shippingInfo
+     * @return \Chronopost\Shipping\shippingInfo
      */
     public function setAsCode($asCode)
     {
@@ -84,7 +84,7 @@ class shippingInfo
 
     /**
      * @param string $codeService
-     * @return \Chonopost\Shipping\shippingInfo
+     * @return \Chronopost\Shipping\shippingInfo
      */
     public function setCodeService($codeService)
     {
@@ -102,7 +102,7 @@ class shippingInfo
 
     /**
      * @param string $destinationDepot
-     * @return \Chonopost\Shipping\shippingInfo
+     * @return \Chronopost\Shipping\shippingInfo
      */
     public function setDestinationDepot($destinationDepot)
     {
@@ -120,7 +120,7 @@ class shippingInfo
 
     /**
      * @param string $groupingPriorityLabel
-     * @return \Chonopost\Shipping\shippingInfo
+     * @return \Chronopost\Shipping\shippingInfo
      */
     public function setGroupingPriorityLabel($groupingPriorityLabel)
     {
@@ -138,7 +138,7 @@ class shippingInfo
 
     /**
      * @param string $serviceMark
-     * @return \Chonopost\Shipping\shippingInfo
+     * @return \Chronopost\Shipping\shippingInfo
      */
     public function setServiceMark($serviceMark)
     {
@@ -156,7 +156,7 @@ class shippingInfo
 
     /**
      * @param string $serviceName
-     * @return \Chonopost\Shipping\shippingInfo
+     * @return \Chronopost\Shipping\shippingInfo
      */
     public function setServiceName($serviceName)
     {
@@ -174,7 +174,7 @@ class shippingInfo
 
     /**
      * @param string $signaletiqueProduit
-     * @return \Chonopost\Shipping\shippingInfo
+     * @return \Chronopost\Shipping\shippingInfo
      */
     public function setSignaletiqueProduit($signaletiqueProduit)
     {
@@ -192,7 +192,7 @@ class shippingInfo
 
     /**
      * @param string $dSort
-     * @return \Chonopost\Shipping\shippingInfo
+     * @return \Chronopost\Shipping\shippingInfo
      */
     public function setDSort($dSort)
     {
@@ -210,7 +210,7 @@ class shippingInfo
 
     /**
      * @param string $oSort
-     * @return \Chonopost\Shipping\shippingInfo
+     * @return \Chronopost\Shipping\shippingInfo
      */
     public function setOSort($oSort)
     {

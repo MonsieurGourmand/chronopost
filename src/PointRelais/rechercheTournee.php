@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class rechercheTournee
 {
@@ -26,7 +26,7 @@ class rechercheTournee
 
     /**
      * @param string $codeTournee
-     * @return \Chonopost\PointRelais\rechercheTournee
+     * @return \Chronopost\PointRelais\rechercheTournee
      */
     public function setCodeTournee($codeTournee)
     {

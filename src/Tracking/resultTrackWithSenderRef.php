@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class resultTrackWithSenderRef
 {
@@ -38,7 +38,7 @@ class resultTrackWithSenderRef
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Tracking\resultTrackWithSenderRef
+     * @return \Chronopost\Tracking\resultTrackWithSenderRef
      */
     public function setErrorCode($errorCode)
     {
@@ -56,7 +56,7 @@ class resultTrackWithSenderRef
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Tracking\resultTrackWithSenderRef
+     * @return \Chronopost\Tracking\resultTrackWithSenderRef
      */
     public function setErrorMessage($errorMessage)
     {
@@ -74,7 +74,7 @@ class resultTrackWithSenderRef
 
     /**
      * @param listEvents[] $listParcel
-     * @return \Chonopost\Tracking\resultTrackWithSenderRef
+     * @return \Chronopost\Tracking\resultTrackWithSenderRef
      */
     public function setListParcel(array $listParcel = null)
     {

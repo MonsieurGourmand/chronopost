@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shippingWithReservationAndESDWithRefClient
 {
@@ -81,7 +81,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param esdWithRefClientValue $esdValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setEsdValue($esdValue)
     {
@@ -99,7 +99,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param headerValue $headerValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setHeaderValue($headerValue)
     {
@@ -117,7 +117,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param shipperValue $shipperValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setShipperValue($shipperValue)
     {
@@ -135,7 +135,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param customerValue $customerValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setCustomerValue($customerValue)
     {
@@ -153,7 +153,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param recipientValue $recipientValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setRecipientValue($recipientValue)
     {
@@ -171,7 +171,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param refValue $refValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setRefValue($refValue)
     {
@@ -189,7 +189,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param skybillValue $skybillValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setSkybillValue($skybillValue)
     {
@@ -207,7 +207,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param skybillParamsValue $skybillParamsValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setSkybillParamsValue($skybillParamsValue)
     {
@@ -225,7 +225,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param string $password
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setPassword($password)
     {
@@ -243,7 +243,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param string $modeRetour
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setModeRetour($modeRetour)
     {
@@ -261,7 +261,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param string $version
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setVersion($version)
     {
@@ -279,7 +279,7 @@ class shippingWithReservationAndESDWithRefClient
 
     /**
      * @param scheduledValue $scheduledValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClient
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClient
      */
     public function setScheduledValue($scheduledValue)
     {

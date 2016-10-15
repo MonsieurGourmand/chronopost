@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class infosPOD
 {
@@ -99,7 +99,7 @@ class infosPOD
 
     /**
      * @param \DateTime $dateDeposit
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setDateDeposit(\DateTime $dateDeposit = null)
     {
@@ -121,7 +121,7 @@ class infosPOD
 
     /**
      * @param string $depositCountry
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setDepositCountry($depositCountry)
     {
@@ -139,7 +139,7 @@ class infosPOD
 
     /**
      * @param string $depositZipCode
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setDepositZipCode($depositZipCode)
     {
@@ -157,7 +157,7 @@ class infosPOD
 
     /**
      * @param string $objectType
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setObjectType($objectType)
     {
@@ -175,7 +175,7 @@ class infosPOD
 
     /**
      * @param string $recipientCity
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setRecipientCity($recipientCity)
     {
@@ -193,7 +193,7 @@ class infosPOD
 
     /**
      * @param string $recipientCountry
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setRecipientCountry($recipientCountry)
     {
@@ -211,7 +211,7 @@ class infosPOD
 
     /**
      * @param string $recipientName
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setRecipientName($recipientName)
     {
@@ -229,7 +229,7 @@ class infosPOD
 
     /**
      * @param string $recipientRef
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setRecipientRef($recipientRef)
     {
@@ -247,7 +247,7 @@ class infosPOD
 
     /**
      * @param string $recipientZipCode
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setRecipientZipCode($recipientZipCode)
     {
@@ -265,7 +265,7 @@ class infosPOD
 
     /**
      * @param string $shipperCity
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setShipperCity($shipperCity)
     {
@@ -283,7 +283,7 @@ class infosPOD
 
     /**
      * @param string $shipperRef
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setShipperRef($shipperRef)
     {
@@ -301,7 +301,7 @@ class infosPOD
 
     /**
      * @param string $shipperZipCode
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setShipperZipCode($shipperZipCode)
     {
@@ -319,7 +319,7 @@ class infosPOD
 
     /**
      * @param event $significantEvent
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setSignificantEvent($significantEvent)
     {
@@ -337,7 +337,7 @@ class infosPOD
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Tracking\infosPOD
+     * @return \Chronopost\Tracking\infosPOD
      */
     public function setSkybillNumber($skybillNumber)
     {

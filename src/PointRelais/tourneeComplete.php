@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class tourneeComplete extends tournee
 {
@@ -123,7 +123,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $codeTourneeMaitre
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setCodeTourneeMaitre($codeTourneeMaitre)
     {
@@ -141,7 +141,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $codeTypeTournee
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setCodeTypeTournee($codeTypeTournee)
     {
@@ -159,7 +159,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $coutMensuelBatiment
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setCoutMensuelBatiment($coutMensuelBatiment)
     {
@@ -177,7 +177,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $cubage
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setCubage($cubage)
     {
@@ -195,7 +195,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $cubageDistri
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setCubageDistri($cubageDistri)
     {
@@ -213,7 +213,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $detailPrestation
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setDetailPrestation($detailPrestation)
     {
@@ -231,7 +231,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $heureTheoriqueRetour
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setHeureTheoriqueRetour($heureTheoriqueRetour)
     {
@@ -249,7 +249,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $idMoyenPropre
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setIdMoyenPropre($idMoyenPropre)
     {
@@ -267,7 +267,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $idSecteur
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setIdSecteur($idSecteur)
     {
@@ -285,7 +285,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $idSousTraitant
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setIdSousTraitant($idSousTraitant)
     {
@@ -303,7 +303,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $idVehicule
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setIdVehicule($idVehicule)
     {
@@ -321,7 +321,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $picking
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setPicking($picking)
     {
@@ -339,7 +339,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $planDistri
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setPlanDistri($planDistri)
     {
@@ -357,7 +357,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $posteComptable
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setPosteComptable($posteComptable)
     {
@@ -375,7 +375,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $pourcentageCoChargement
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setPourcentageCoChargement($pourcentageCoChargement)
     {
@@ -393,7 +393,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $qualification
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setQualification($qualification)
     {
@@ -411,7 +411,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $spot
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setSpot($spot)
     {
@@ -429,7 +429,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $trigrammeAgence
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setTrigrammeAgence($trigrammeAgence)
     {
@@ -447,7 +447,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $typeTournee
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setTypeTournee($typeTournee)
     {
@@ -465,7 +465,7 @@ class tourneeComplete extends tournee
 
     /**
      * @param string $zone
-     * @return \Chonopost\PointRelais\tourneeComplete
+     * @return \Chronopost\PointRelais\tourneeComplete
      */
     public function setZone($zone)
     {

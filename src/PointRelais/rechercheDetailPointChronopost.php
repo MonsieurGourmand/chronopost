@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class rechercheDetailPointChronopost
 {
@@ -36,7 +36,7 @@ class rechercheDetailPointChronopost
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\PointRelais\rechercheDetailPointChronopost
+     * @return \Chronopost\PointRelais\rechercheDetailPointChronopost
      */
     public function setAccountNumber($accountNumber)
     {
@@ -54,7 +54,7 @@ class rechercheDetailPointChronopost
 
     /**
      * @param string $password
-     * @return \Chonopost\PointRelais\rechercheDetailPointChronopost
+     * @return \Chronopost\PointRelais\rechercheDetailPointChronopost
      */
     public function setPassword($password)
     {
@@ -72,7 +72,7 @@ class rechercheDetailPointChronopost
 
     /**
      * @param string $identifiant
-     * @return \Chonopost\PointRelais\rechercheDetailPointChronopost
+     * @return \Chronopost\PointRelais\rechercheDetailPointChronopost
      */
     public function setIdentifiant($identifiant)
     {

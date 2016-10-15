@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class tourneeCompleteResult
 {
@@ -38,7 +38,7 @@ class tourneeCompleteResult
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\PointRelais\tourneeCompleteResult
+     * @return \Chronopost\PointRelais\tourneeCompleteResult
      */
     public function setErrorCode($errorCode)
     {
@@ -56,7 +56,7 @@ class tourneeCompleteResult
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\PointRelais\tourneeCompleteResult
+     * @return \Chronopost\PointRelais\tourneeCompleteResult
      */
     public function setErrorMessage($errorMessage)
     {
@@ -74,7 +74,7 @@ class tourneeCompleteResult
 
     /**
      * @param tourneeComplete $tourneeComplete
-     * @return \Chonopost\PointRelais\tourneeCompleteResult
+     * @return \Chronopost\PointRelais\tourneeCompleteResult
      */
     public function setTourneeComplete($tourneeComplete)
     {

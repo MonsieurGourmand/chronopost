@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class rechercheTourneeParTypeTourneeEtPosteComptableResponse
 {
@@ -26,7 +26,7 @@ class rechercheTourneeParTypeTourneeEtPosteComptableResponse
 
     /**
      * @param tourneeCompleteResult $return
-     * @return \Chonopost\PointRelais\rechercheTourneeParTypeTourneeEtPosteComptableResponse
+     * @return \Chronopost\PointRelais\rechercheTourneeParTypeTourneeEtPosteComptableResponse
      */
     public function setReturn($return)
     {

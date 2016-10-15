@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class resultQuickCostV2 extends resultQuickCost
 {
@@ -31,7 +31,7 @@ class resultQuickCostV2 extends resultQuickCost
 
     /**
      * @param assurance $assurance
-     * @return \Chonopost\Quickcost\resultQuickCostV2
+     * @return \Chronopost\Quickcost\resultQuickCostV2
      */
     public function setAssurance($assurance)
     {

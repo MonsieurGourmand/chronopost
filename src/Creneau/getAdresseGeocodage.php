@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class getAdresseGeocodage
 {
@@ -41,7 +41,7 @@ class getAdresseGeocodage
 
     /**
      * @param string $adresse1
-     * @return \Chonopost\Creneau\getAdresseGeocodage
+     * @return \Chronopost\Creneau\getAdresseGeocodage
      */
     public function setAdresse1($adresse1)
     {
@@ -59,7 +59,7 @@ class getAdresseGeocodage
 
     /**
      * @param string $adresse2
-     * @return \Chonopost\Creneau\getAdresseGeocodage
+     * @return \Chronopost\Creneau\getAdresseGeocodage
      */
     public function setAdresse2($adresse2)
     {
@@ -77,7 +77,7 @@ class getAdresseGeocodage
 
     /**
      * @param string $zipCode
-     * @return \Chonopost\Creneau\getAdresseGeocodage
+     * @return \Chronopost\Creneau\getAdresseGeocodage
      */
     public function setZipCode($zipCode)
     {
@@ -95,7 +95,7 @@ class getAdresseGeocodage
 
     /**
      * @param string $city
-     * @return \Chonopost\Creneau\getAdresseGeocodage
+     * @return \Chronopost\Creneau\getAdresseGeocodage
      */
     public function setCity($city)
     {

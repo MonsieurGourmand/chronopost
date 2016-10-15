@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class skybillValue
 {
@@ -163,7 +163,7 @@ class skybillValue
 
     /**
      * @param string $bulkNumber
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setBulkNumber($bulkNumber)
     {
@@ -181,7 +181,7 @@ class skybillValue
 
     /**
      * @param string $codCurrency
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setCodCurrency($codCurrency)
     {
@@ -199,7 +199,7 @@ class skybillValue
 
     /**
      * @param float $codValue
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setCodValue($codValue)
     {
@@ -217,7 +217,7 @@ class skybillValue
 
     /**
      * @param string $content1
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setContent1($content1)
     {
@@ -235,7 +235,7 @@ class skybillValue
 
     /**
      * @param string $content2
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setContent2($content2)
     {
@@ -253,7 +253,7 @@ class skybillValue
 
     /**
      * @param string $content3
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setContent3($content3)
     {
@@ -271,7 +271,7 @@ class skybillValue
 
     /**
      * @param string $content4
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setContent4($content4)
     {
@@ -289,7 +289,7 @@ class skybillValue
 
     /**
      * @param string $content5
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setContent5($content5)
     {
@@ -307,7 +307,7 @@ class skybillValue
 
     /**
      * @param string $customsCurrency
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setCustomsCurrency($customsCurrency)
     {
@@ -325,7 +325,7 @@ class skybillValue
 
     /**
      * @param float $customsValue
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setCustomsValue($customsValue)
     {
@@ -343,7 +343,7 @@ class skybillValue
 
     /**
      * @param string $evtCode
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setEvtCode($evtCode)
     {
@@ -361,7 +361,7 @@ class skybillValue
 
     /**
      * @param string $insuredCurrency
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setInsuredCurrency($insuredCurrency)
     {
@@ -379,7 +379,7 @@ class skybillValue
 
     /**
      * @param float $insuredValue
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setInsuredValue($insuredValue)
     {
@@ -397,7 +397,7 @@ class skybillValue
 
     /**
      * @param string $latitude
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setLatitude($latitude)
     {
@@ -415,7 +415,7 @@ class skybillValue
 
     /**
      * @param string $longitude
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setLongitude($longitude)
     {
@@ -433,7 +433,7 @@ class skybillValue
 
     /**
      * @param string $masterSkybillNumber
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setMasterSkybillNumber($masterSkybillNumber)
     {
@@ -451,7 +451,7 @@ class skybillValue
 
     /**
      * @param string $objectType
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setObjectType($objectType)
     {
@@ -469,7 +469,7 @@ class skybillValue
 
     /**
      * @param string $portCurrency
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setPortCurrency($portCurrency)
     {
@@ -487,7 +487,7 @@ class skybillValue
 
     /**
      * @param float $portValue
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setPortValue($portValue)
     {
@@ -505,7 +505,7 @@ class skybillValue
 
     /**
      * @param string $productCode
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setProductCode($productCode)
     {
@@ -523,7 +523,7 @@ class skybillValue
 
     /**
      * @param string $qualite
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setQualite($qualite)
     {
@@ -541,7 +541,7 @@ class skybillValue
 
     /**
      * @param string $service
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setService($service)
     {
@@ -567,7 +567,7 @@ class skybillValue
 
     /**
      * @param \DateTime $shipDate
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setShipDate(\DateTime $shipDate = null)
     {
@@ -589,7 +589,7 @@ class skybillValue
 
     /**
      * @param int $shipHour
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setShipHour($shipHour)
     {
@@ -607,7 +607,7 @@ class skybillValue
 
     /**
      * @param string $skybillRank
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setSkybillRank($skybillRank)
     {
@@ -625,7 +625,7 @@ class skybillValue
 
     /**
      * @param string $source
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setSource($source)
     {
@@ -643,7 +643,7 @@ class skybillValue
 
     /**
      * @param float $weight
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setWeight($weight)
     {
@@ -661,7 +661,7 @@ class skybillValue
 
     /**
      * @param string $weightUnit
-     * @return \Chonopost\Shipping\skybillValue
+     * @return \Chronopost\Shipping\skybillValue
      */
     public function setWeightUnit($weightUnit)
     {

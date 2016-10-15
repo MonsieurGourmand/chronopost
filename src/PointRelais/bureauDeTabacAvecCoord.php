@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class bureauDeTabacAvecCoord extends bureauDeTabac
 {
@@ -41,7 +41,7 @@ class bureauDeTabacAvecCoord extends bureauDeTabac
 
     /**
      * @param float $coordGeoLatitude
-     * @return \Chonopost\PointRelais\bureauDeTabacAvecCoord
+     * @return \Chronopost\PointRelais\bureauDeTabacAvecCoord
      */
     public function setCoordGeoLatitude($coordGeoLatitude)
     {
@@ -59,7 +59,7 @@ class bureauDeTabacAvecCoord extends bureauDeTabac
 
     /**
      * @param float $coordGeoLongitude
-     * @return \Chonopost\PointRelais\bureauDeTabacAvecCoord
+     * @return \Chronopost\PointRelais\bureauDeTabacAvecCoord
      */
     public function setCoordGeoLongitude($coordGeoLongitude)
     {
@@ -77,7 +77,7 @@ class bureauDeTabacAvecCoord extends bureauDeTabac
 
     /**
      * @param string $urlGoogleMaps
-     * @return \Chonopost\PointRelais\bureauDeTabacAvecCoord
+     * @return \Chronopost\PointRelais\bureauDeTabacAvecCoord
      */
     public function setUrlGoogleMaps($urlGoogleMaps)
     {

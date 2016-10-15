@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class getReservedSkybillWithTypeAndModeResponse
 {
@@ -26,7 +26,7 @@ class getReservedSkybillWithTypeAndModeResponse
 
     /**
      * @param resultGetReservedSkybillWithTypeValue $return
-     * @return \Chonopost\Shipping\getReservedSkybillWithTypeAndModeResponse
+     * @return \Chronopost\Shipping\getReservedSkybillWithTypeAndModeResponse
      */
     public function setReturn($return)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class trackSearchResponse
 {
@@ -26,7 +26,7 @@ class trackSearchResponse
 
     /**
      * @param resultTrackSearch $return
-     * @return \Chonopost\Tracking\trackSearchResponse
+     * @return \Chronopost\Tracking\trackSearchResponse
      */
     public function setReturn($return)
     {

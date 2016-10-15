@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class resultGetReservedSkybillValue
 {
@@ -38,7 +38,7 @@ class resultGetReservedSkybillValue
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Shipping\resultGetReservedSkybillValue
+     * @return \Chronopost\Shipping\resultGetReservedSkybillValue
      */
     public function setErrorCode($errorCode)
     {
@@ -56,7 +56,7 @@ class resultGetReservedSkybillValue
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Shipping\resultGetReservedSkybillValue
+     * @return \Chronopost\Shipping\resultGetReservedSkybillValue
      */
     public function setErrorMessage($errorMessage)
     {
@@ -74,7 +74,7 @@ class resultGetReservedSkybillValue
 
     /**
      * @param string $skybill
-     * @return \Chonopost\Shipping\resultGetReservedSkybillValue
+     * @return \Chronopost\Shipping\resultGetReservedSkybillValue
      */
     public function setSkybill($skybill)
     {

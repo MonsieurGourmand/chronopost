@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class pointCHRResult
 {
@@ -50,7 +50,7 @@ class pointCHRResult
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\PointRelais\pointCHRResult
+     * @return \Chronopost\PointRelais\pointCHRResult
      */
     public function setErrorCode($errorCode)
     {
@@ -68,7 +68,7 @@ class pointCHRResult
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\PointRelais\pointCHRResult
+     * @return \Chronopost\PointRelais\pointCHRResult
      */
     public function setErrorMessage($errorMessage)
     {
@@ -86,7 +86,7 @@ class pointCHRResult
 
     /**
      * @param pointCHR[] $listePointRelais
-     * @return \Chonopost\PointRelais\pointCHRResult
+     * @return \Chronopost\PointRelais\pointCHRResult
      */
     public function setListePointRelais(array $listePointRelais = null)
     {
@@ -104,7 +104,7 @@ class pointCHRResult
 
     /**
      * @param int $qualiteReponse
-     * @return \Chonopost\PointRelais\pointCHRResult
+     * @return \Chronopost\PointRelais\pointCHRResult
      */
     public function setQualiteReponse($qualiteReponse)
     {
@@ -122,7 +122,7 @@ class pointCHRResult
 
     /**
      * @param string $wsRequestId
-     * @return \Chonopost\PointRelais\pointCHRResult
+     * @return \Chronopost\PointRelais\pointCHRResult
      */
     public function setWsRequestId($wsRequestId)
     {

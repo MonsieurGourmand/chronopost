@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class event
 {
@@ -56,7 +56,7 @@ class event
 
     /**
      * @param string $code
-     * @return \Chonopost\Tracking\event
+     * @return \Chronopost\Tracking\event
      */
     public function setCode($code)
     {
@@ -82,7 +82,7 @@ class event
 
     /**
      * @param \DateTime $eventDate
-     * @return \Chonopost\Tracking\event
+     * @return \Chronopost\Tracking\event
      */
     public function setEventDate(\DateTime $eventDate = null)
     {
@@ -104,7 +104,7 @@ class event
 
     /**
      * @param string $eventLabel
-     * @return \Chonopost\Tracking\event
+     * @return \Chronopost\Tracking\event
      */
     public function setEventLabel($eventLabel)
     {
@@ -122,7 +122,7 @@ class event
 
     /**
      * @param boolean $highPriority
-     * @return \Chonopost\Tracking\event
+     * @return \Chronopost\Tracking\event
      */
     public function setHighPriority($highPriority)
     {
@@ -140,7 +140,7 @@ class event
 
     /**
      * @param string $NPC
-     * @return \Chonopost\Tracking\event
+     * @return \Chronopost\Tracking\event
      */
     public function setNPC($NPC)
     {
@@ -158,7 +158,7 @@ class event
 
     /**
      * @param string $officeLabel
-     * @return \Chonopost\Tracking\event
+     * @return \Chronopost\Tracking\event
      */
     public function setOfficeLabel($officeLabel)
     {
@@ -176,7 +176,7 @@ class event
 
     /**
      * @param string $zipCode
-     * @return \Chonopost\Tracking\event
+     * @return \Chronopost\Tracking\event
      */
     public function setZipCode($zipCode)
     {

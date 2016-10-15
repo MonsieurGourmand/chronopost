@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class cancelSkybill
 {
@@ -41,7 +41,7 @@ class cancelSkybill
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\Tracking\cancelSkybill
+     * @return \Chronopost\Tracking\cancelSkybill
      */
     public function setAccountNumber($accountNumber)
     {
@@ -59,7 +59,7 @@ class cancelSkybill
 
     /**
      * @param string $password
-     * @return \Chonopost\Tracking\cancelSkybill
+     * @return \Chronopost\Tracking\cancelSkybill
      */
     public function setPassword($password)
     {
@@ -77,7 +77,7 @@ class cancelSkybill
 
     /**
      * @param string $language
-     * @return \Chonopost\Tracking\cancelSkybill
+     * @return \Chronopost\Tracking\cancelSkybill
      */
     public function setLanguage($language)
     {
@@ -95,7 +95,7 @@ class cancelSkybill
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Tracking\cancelSkybill
+     * @return \Chronopost\Tracking\cancelSkybill
      */
     public function setSkybillNumber($skybillNumber)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class pointCHR
 {
@@ -124,7 +124,7 @@ class pointCHR
 
     /**
      * @param boolean $accesPersonneMobiliteReduite
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setAccesPersonneMobiliteReduite($accesPersonneMobiliteReduite)
     {
@@ -142,7 +142,7 @@ class pointCHR
 
     /**
      * @param boolean $actif
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setActif($actif)
     {
@@ -160,7 +160,7 @@ class pointCHR
 
     /**
      * @param string $adresse1
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setAdresse1($adresse1)
     {
@@ -178,7 +178,7 @@ class pointCHR
 
     /**
      * @param string $adresse2
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setAdresse2($adresse2)
     {
@@ -196,7 +196,7 @@ class pointCHR
 
     /**
      * @param string $adresse3
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setAdresse3($adresse3)
     {
@@ -214,7 +214,7 @@ class pointCHR
 
     /**
      * @param string $codePays
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setCodePays($codePays)
     {
@@ -232,7 +232,7 @@ class pointCHR
 
     /**
      * @param string $codePostal
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setCodePostal($codePostal)
     {
@@ -250,7 +250,7 @@ class pointCHR
 
     /**
      * @param string $coordGeolocalisationLatitude
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setCoordGeolocalisationLatitude($coordGeolocalisationLatitude)
     {
@@ -268,7 +268,7 @@ class pointCHR
 
     /**
      * @param string $coordGeolocalisationLongitude
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setCoordGeolocalisationLongitude($coordGeolocalisationLongitude)
     {
@@ -286,7 +286,7 @@ class pointCHR
 
     /**
      * @param int $distanceEnMetre
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setDistanceEnMetre($distanceEnMetre)
     {
@@ -304,7 +304,7 @@ class pointCHR
 
     /**
      * @param string $identifiant
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setIdentifiant($identifiant)
     {
@@ -322,7 +322,7 @@ class pointCHR
 
     /**
      * @param string $indiceDeLocalisation
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setIndiceDeLocalisation($indiceDeLocalisation)
     {
@@ -340,7 +340,7 @@ class pointCHR
 
     /**
      * @param listeHoraireOuverturePourUnJour[] $listeHoraireOuverture
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setListeHoraireOuverture(array $listeHoraireOuverture = null)
     {
@@ -358,7 +358,7 @@ class pointCHR
 
     /**
      * @param periodeFermeture[] $listePeriodeFermeture
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setListePeriodeFermeture(array $listePeriodeFermeture = null)
     {
@@ -376,7 +376,7 @@ class pointCHR
 
     /**
      * @param string $localite
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setLocalite($localite)
     {
@@ -394,7 +394,7 @@ class pointCHR
 
     /**
      * @param string $nom
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setNom($nom)
     {
@@ -412,7 +412,7 @@ class pointCHR
 
     /**
      * @param int $poidsMaxi
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setPoidsMaxi($poidsMaxi)
     {
@@ -430,7 +430,7 @@ class pointCHR
 
     /**
      * @param string $typeDePoint
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setTypeDePoint($typeDePoint)
     {
@@ -448,7 +448,7 @@ class pointCHR
 
     /**
      * @param string $urlGoogleMaps
-     * @return \Chonopost\PointRelais\pointCHR
+     * @return \Chronopost\PointRelais\pointCHR
      */
     public function setUrlGoogleMaps($urlGoogleMaps)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class service
 {
@@ -52,7 +52,7 @@ class service
 
     /**
      * @param float $amount
-     * @return \Chonopost\Quickcost\service
+     * @return \Chronopost\Quickcost\service
      */
     public function setAmount($amount)
     {
@@ -70,7 +70,7 @@ class service
 
     /**
      * @param float $amountTTC
-     * @return \Chonopost\Quickcost\service
+     * @return \Chronopost\Quickcost\service
      */
     public function setAmountTTC($amountTTC)
     {
@@ -88,7 +88,7 @@ class service
 
     /**
      * @param float $amountTVA
-     * @return \Chonopost\Quickcost\service
+     * @return \Chronopost\Quickcost\service
      */
     public function setAmountTVA($amountTVA)
     {
@@ -106,7 +106,7 @@ class service
 
     /**
      * @param string $codeService
-     * @return \Chonopost\Quickcost\service
+     * @return \Chronopost\Quickcost\service
      */
     public function setCodeService($codeService)
     {
@@ -124,7 +124,7 @@ class service
 
     /**
      * @param string $label
-     * @return \Chonopost\Quickcost\service
+     * @return \Chronopost\Quickcost\service
      */
     public function setLabel($label)
     {

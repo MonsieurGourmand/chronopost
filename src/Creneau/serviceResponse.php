@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class serviceResponse extends wsResponse
 {
@@ -28,7 +28,7 @@ class serviceResponse extends wsResponse
 
     /**
      * @param productService $productService
-     * @return \Chonopost\Creneau\serviceResponse
+     * @return \Chronopost\Creneau\serviceResponse
      */
     public function setProductService($productService)
     {

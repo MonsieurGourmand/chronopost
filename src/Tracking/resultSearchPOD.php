@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class resultSearchPOD
 {
@@ -57,7 +57,7 @@ class resultSearchPOD
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Tracking\resultSearchPOD
+     * @return \Chronopost\Tracking\resultSearchPOD
      */
     public function setErrorCode($errorCode)
     {
@@ -75,7 +75,7 @@ class resultSearchPOD
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Tracking\resultSearchPOD
+     * @return \Chronopost\Tracking\resultSearchPOD
      */
     public function setErrorMessage($errorMessage)
     {
@@ -93,7 +93,7 @@ class resultSearchPOD
 
     /**
      * @param string $formatPOD
-     * @return \Chonopost\Tracking\resultSearchPOD
+     * @return \Chronopost\Tracking\resultSearchPOD
      */
     public function setFormatPOD($formatPOD)
     {
@@ -111,7 +111,7 @@ class resultSearchPOD
 
     /**
      * @param base64Binary $pod
-     * @return \Chonopost\Tracking\resultSearchPOD
+     * @return \Chronopost\Tracking\resultSearchPOD
      */
     public function setPod($pod)
     {
@@ -129,7 +129,7 @@ class resultSearchPOD
 
     /**
      * @param boolean $podPresente
-     * @return \Chonopost\Tracking\resultSearchPOD
+     * @return \Chronopost\Tracking\resultSearchPOD
      */
     public function setPodPresente($podPresente)
     {
@@ -147,7 +147,7 @@ class resultSearchPOD
 
     /**
      * @param int $statusCode
-     * @return \Chonopost\Tracking\resultSearchPOD
+     * @return \Chronopost\Tracking\resultSearchPOD
      */
     public function setStatusCode($statusCode)
     {

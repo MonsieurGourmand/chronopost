@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class calculateDeliveryTime
 {
@@ -66,7 +66,7 @@ class calculateDeliveryTime
 
     /**
      * @param string $depCountryCode
-     * @return \Chonopost\Quickcost\calculateDeliveryTime
+     * @return \Chronopost\Quickcost\calculateDeliveryTime
      */
     public function setDepCountryCode($depCountryCode)
     {
@@ -84,7 +84,7 @@ class calculateDeliveryTime
 
     /**
      * @param string $depZipCode
-     * @return \Chonopost\Quickcost\calculateDeliveryTime
+     * @return \Chronopost\Quickcost\calculateDeliveryTime
      */
     public function setDepZipCode($depZipCode)
     {
@@ -102,7 +102,7 @@ class calculateDeliveryTime
 
     /**
      * @param string $arrCountryCode
-     * @return \Chonopost\Quickcost\calculateDeliveryTime
+     * @return \Chronopost\Quickcost\calculateDeliveryTime
      */
     public function setArrCountryCode($arrCountryCode)
     {
@@ -120,7 +120,7 @@ class calculateDeliveryTime
 
     /**
      * @param string $arrZipCode
-     * @return \Chonopost\Quickcost\calculateDeliveryTime
+     * @return \Chronopost\Quickcost\calculateDeliveryTime
      */
     public function setArrZipCode($arrZipCode)
     {
@@ -138,7 +138,7 @@ class calculateDeliveryTime
 
     /**
      * @param string $arrCity
-     * @return \Chonopost\Quickcost\calculateDeliveryTime
+     * @return \Chronopost\Quickcost\calculateDeliveryTime
      */
     public function setArrCity($arrCity)
     {
@@ -156,7 +156,7 @@ class calculateDeliveryTime
 
     /**
      * @param string $productCode
-     * @return \Chonopost\Quickcost\calculateDeliveryTime
+     * @return \Chronopost\Quickcost\calculateDeliveryTime
      */
     public function setProductCode($productCode)
     {
@@ -174,7 +174,7 @@ class calculateDeliveryTime
 
     /**
      * @param string $type
-     * @return \Chonopost\Quickcost\calculateDeliveryTime
+     * @return \Chronopost\Quickcost\calculateDeliveryTime
      */
     public function setType($type)
     {
@@ -192,7 +192,7 @@ class calculateDeliveryTime
 
     /**
      * @param string $service
-     * @return \Chonopost\Quickcost\calculateDeliveryTime
+     * @return \Chronopost\Quickcost\calculateDeliveryTime
      */
     public function setService($service)
     {
@@ -210,7 +210,7 @@ class calculateDeliveryTime
 
     /**
      * @param string $shippingDate
-     * @return \Chonopost\Quickcost\calculateDeliveryTime
+     * @return \Chronopost\Quickcost\calculateDeliveryTime
      */
     public function setShippingDate($shippingDate)
     {

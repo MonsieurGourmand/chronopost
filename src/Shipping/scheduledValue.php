@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class scheduledValue
 {
@@ -36,7 +36,7 @@ class scheduledValue
 
     /**
      * @param appointmentValue $appointmentValue
-     * @return \Chonopost\Shipping\scheduledValue
+     * @return \Chronopost\Shipping\scheduledValue
      */
     public function setAppointmentValue($appointmentValue)
     {
@@ -62,7 +62,7 @@ class scheduledValue
 
     /**
      * @param \DateTime $expirationDate
-     * @return \Chonopost\Shipping\scheduledValue
+     * @return \Chronopost\Shipping\scheduledValue
      */
     public function setExpirationDate(\DateTime $expirationDate = null)
     {
@@ -92,7 +92,7 @@ class scheduledValue
 
     /**
      * @param \DateTime $sellByDate
-     * @return \Chonopost\Shipping\scheduledValue
+     * @return \Chronopost\Shipping\scheduledValue
      */
     public function setSellByDate(\DateTime $sellByDate = null)
     {

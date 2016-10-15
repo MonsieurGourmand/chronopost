@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class skybillValueBase
 {
@@ -51,7 +51,7 @@ class skybillValueBase
 
     /**
      * @param string $as
-     * @return \Chonopost\Shipping\skybillValueBase
+     * @return \Chronopost\Shipping\skybillValueBase
      */
     public function setAs($as)
     {
@@ -69,7 +69,7 @@ class skybillValueBase
 
     /**
      * @param string $objectType
-     * @return \Chonopost\Shipping\skybillValueBase
+     * @return \Chronopost\Shipping\skybillValueBase
      */
     public function setObjectType($objectType)
     {
@@ -87,7 +87,7 @@ class skybillValueBase
 
     /**
      * @param string $productCode
-     * @return \Chonopost\Shipping\skybillValueBase
+     * @return \Chronopost\Shipping\skybillValueBase
      */
     public function setProductCode($productCode)
     {
@@ -105,7 +105,7 @@ class skybillValueBase
 
     /**
      * @param string $service
-     * @return \Chonopost\Shipping\skybillValueBase
+     * @return \Chronopost\Shipping\skybillValueBase
      */
     public function setService($service)
     {
@@ -131,7 +131,7 @@ class skybillValueBase
 
     /**
      * @param \DateTime $shipDate
-     * @return \Chonopost\Shipping\skybillValueBase
+     * @return \Chronopost\Shipping\skybillValueBase
      */
     public function setShipDate(\DateTime $shipDate = null)
     {
@@ -153,7 +153,7 @@ class skybillValueBase
 
     /**
      * @param float $weight
-     * @return \Chonopost\Shipping\skybillValueBase
+     * @return \Chronopost\Shipping\skybillValueBase
      */
     public function setWeight($weight)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class recherchePointChronopostInter
 {
@@ -101,7 +101,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setAccountNumber($accountNumber)
     {
@@ -119,7 +119,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $password
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setPassword($password)
     {
@@ -137,7 +137,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $address
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setAddress($address)
     {
@@ -155,7 +155,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $zipCode
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setZipCode($zipCode)
     {
@@ -173,7 +173,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $city
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setCity($city)
     {
@@ -191,7 +191,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $countryCode
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setCountryCode($countryCode)
     {
@@ -209,7 +209,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $type
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setType($type)
     {
@@ -227,7 +227,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $productCode
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setProductCode($productCode)
     {
@@ -245,7 +245,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $service
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setService($service)
     {
@@ -263,7 +263,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $weight
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setWeight($weight)
     {
@@ -281,7 +281,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $shippingDate
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setShippingDate($shippingDate)
     {
@@ -299,7 +299,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $maxPointChronopost
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setMaxPointChronopost($maxPointChronopost)
     {
@@ -317,7 +317,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $maxDistanceSearch
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setMaxDistanceSearch($maxDistanceSearch)
     {
@@ -335,7 +335,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $holidayTolerant
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setHolidayTolerant($holidayTolerant)
     {
@@ -353,7 +353,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $language
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setLanguage($language)
     {
@@ -371,7 +371,7 @@ class recherchePointChronopostInter
 
     /**
      * @param string $version
-     * @return \Chonopost\PointRelais\recherchePointChronopostInter
+     * @return \Chronopost\PointRelais\recherchePointChronopostInter
      */
     public function setVersion($version)
     {

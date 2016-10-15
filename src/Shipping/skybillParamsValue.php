@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class skybillParamsValue
 {
@@ -31,7 +31,7 @@ class skybillParamsValue
 
     /**
      * @param string $duplicata
-     * @return \Chonopost\Shipping\skybillParamsValue
+     * @return \Chronopost\Shipping\skybillParamsValue
      */
     public function setDuplicata($duplicata)
     {
@@ -49,7 +49,7 @@ class skybillParamsValue
 
     /**
      * @param string $mode
-     * @return \Chonopost\Shipping\skybillParamsValue
+     * @return \Chronopost\Shipping\skybillParamsValue
      */
     public function setMode($mode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class rechercheBtAvecPFParIdChronopostA2Pas
 {
@@ -26,7 +26,7 @@ class rechercheBtAvecPFParIdChronopostA2Pas
 
     /**
      * @param string $id
-     * @return \Chonopost\PointRelais\rechercheBtAvecPFParIdChronopostA2Pas
+     * @return \Chronopost\PointRelais\rechercheBtAvecPFParIdChronopostA2Pas
      */
     public function setId($id)
     {

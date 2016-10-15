@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class getReservedSkybillWithTypeAndMode
 {
@@ -31,7 +31,7 @@ class getReservedSkybillWithTypeAndMode
 
     /**
      * @param string $reservationNumber
-     * @return \Chonopost\Shipping\getReservedSkybillWithTypeAndMode
+     * @return \Chronopost\Shipping\getReservedSkybillWithTypeAndMode
      */
     public function setReservationNumber($reservationNumber)
     {
@@ -49,7 +49,7 @@ class getReservedSkybillWithTypeAndMode
 
     /**
      * @param string $mode
-     * @return \Chonopost\Shipping\getReservedSkybillWithTypeAndMode
+     * @return \Chronopost\Shipping\getReservedSkybillWithTypeAndMode
      */
     public function setMode($mode)
     {

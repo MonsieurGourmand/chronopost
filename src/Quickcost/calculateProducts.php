@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class calculateProducts
 {
@@ -86,7 +86,7 @@ class calculateProducts
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setAccountNumber($accountNumber)
     {
@@ -104,7 +104,7 @@ class calculateProducts
 
     /**
      * @param string $password
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setPassword($password)
     {
@@ -122,7 +122,7 @@ class calculateProducts
 
     /**
      * @param string $depCountryCode
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setDepCountryCode($depCountryCode)
     {
@@ -140,7 +140,7 @@ class calculateProducts
 
     /**
      * @param string $depZipCode
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setDepZipCode($depZipCode)
     {
@@ -158,7 +158,7 @@ class calculateProducts
 
     /**
      * @param string $arrCountryCode
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setArrCountryCode($arrCountryCode)
     {
@@ -176,7 +176,7 @@ class calculateProducts
 
     /**
      * @param string $arrZipCode
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setArrZipCode($arrZipCode)
     {
@@ -194,7 +194,7 @@ class calculateProducts
 
     /**
      * @param string $arrCity
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setArrCity($arrCity)
     {
@@ -212,7 +212,7 @@ class calculateProducts
 
     /**
      * @param string $type
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setType($type)
     {
@@ -230,7 +230,7 @@ class calculateProducts
 
     /**
      * @param string $weight
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setWeight($weight)
     {
@@ -248,7 +248,7 @@ class calculateProducts
 
     /**
      * @param string $height
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setHeight($height)
     {
@@ -266,7 +266,7 @@ class calculateProducts
 
     /**
      * @param string $length
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setLength($length)
     {
@@ -284,7 +284,7 @@ class calculateProducts
 
     /**
      * @param string $width
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setWidth($width)
     {
@@ -302,7 +302,7 @@ class calculateProducts
 
     /**
      * @param string $shippingDate
-     * @return \Chonopost\Quickcost\calculateProducts
+     * @return \Chronopost\Quickcost\calculateProducts
      */
     public function setShippingDate($shippingDate)
     {

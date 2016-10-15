@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shippingWithReservationV2Response
 {
@@ -26,7 +26,7 @@ class shippingWithReservationV2Response
 
     /**
      * @param resultReservationExpeditionValueV2 $return
-     * @return \Chonopost\Shipping\shippingWithReservationV2Response
+     * @return \Chronopost\Shipping\shippingWithReservationV2Response
      */
     public function setReturn($return)
     {

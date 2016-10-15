@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class skybillWithDimensionsValue extends skybillValue
 {
@@ -44,7 +44,7 @@ class skybillWithDimensionsValue extends skybillValue
 
     /**
      * @param float $height
-     * @return \Chonopost\Shipping\skybillWithDimensionsValue
+     * @return \Chronopost\Shipping\skybillWithDimensionsValue
      */
     public function setHeight($height)
     {
@@ -62,7 +62,7 @@ class skybillWithDimensionsValue extends skybillValue
 
     /**
      * @param float $length
-     * @return \Chonopost\Shipping\skybillWithDimensionsValue
+     * @return \Chronopost\Shipping\skybillWithDimensionsValue
      */
     public function setLength($length)
     {
@@ -80,7 +80,7 @@ class skybillWithDimensionsValue extends skybillValue
 
     /**
      * @param float $width
-     * @return \Chonopost\Shipping\skybillWithDimensionsValue
+     * @return \Chronopost\Shipping\skybillWithDimensionsValue
      */
     public function setWidth($width)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class esdWithRefClientValue extends esdValue
 {
@@ -44,7 +44,7 @@ class esdWithRefClientValue extends esdValue
 
     /**
      * @param boolean $ltAImprimerParChronopost
-     * @return \Chonopost\Shipping\esdWithRefClientValue
+     * @return \Chronopost\Shipping\esdWithRefClientValue
      */
     public function setLtAImprimerParChronopost($ltAImprimerParChronopost)
     {
@@ -62,7 +62,7 @@ class esdWithRefClientValue extends esdValue
 
     /**
      * @param int $nombreDePassageMaximum
-     * @return \Chonopost\Shipping\esdWithRefClientValue
+     * @return \Chronopost\Shipping\esdWithRefClientValue
      */
     public function setNombreDePassageMaximum($nombreDePassageMaximum)
     {
@@ -80,7 +80,7 @@ class esdWithRefClientValue extends esdValue
 
     /**
      * @param string $refEsdClient
-     * @return \Chonopost\Shipping\esdWithRefClientValue
+     * @return \Chronopost\Shipping\esdWithRefClientValue
      */
     public function setRefEsdClient($refEsdClient)
     {

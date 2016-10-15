@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class resultQuickCost
 {
@@ -64,7 +64,7 @@ class resultQuickCost
 
     /**
      * @param float $amount
-     * @return \Chonopost\Quickcost\resultQuickCost
+     * @return \Chronopost\Quickcost\resultQuickCost
      */
     public function setAmount($amount)
     {
@@ -82,7 +82,7 @@ class resultQuickCost
 
     /**
      * @param float $amountTTC
-     * @return \Chonopost\Quickcost\resultQuickCost
+     * @return \Chronopost\Quickcost\resultQuickCost
      */
     public function setAmountTTC($amountTTC)
     {
@@ -100,7 +100,7 @@ class resultQuickCost
 
     /**
      * @param float $amountTVA
-     * @return \Chonopost\Quickcost\resultQuickCost
+     * @return \Chronopost\Quickcost\resultQuickCost
      */
     public function setAmountTVA($amountTVA)
     {
@@ -118,7 +118,7 @@ class resultQuickCost
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Quickcost\resultQuickCost
+     * @return \Chronopost\Quickcost\resultQuickCost
      */
     public function setErrorCode($errorCode)
     {
@@ -136,7 +136,7 @@ class resultQuickCost
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Quickcost\resultQuickCost
+     * @return \Chronopost\Quickcost\resultQuickCost
      */
     public function setErrorMessage($errorMessage)
     {
@@ -154,7 +154,7 @@ class resultQuickCost
 
     /**
      * @param service[] $service
-     * @return \Chonopost\Quickcost\resultQuickCost
+     * @return \Chronopost\Quickcost\resultQuickCost
      */
     public function setService(array $service = null)
     {
@@ -172,7 +172,7 @@ class resultQuickCost
 
     /**
      * @param string $zone
-     * @return \Chonopost\Quickcost\resultQuickCost
+     * @return \Chronopost\Quickcost\resultQuickCost
      */
     public function setZone($zone)
     {

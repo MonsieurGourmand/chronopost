@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class resultExpeditionValue
 {
@@ -58,7 +58,7 @@ class resultExpeditionValue
 
     /**
      * @param string $ESDFullNumber
-     * @return \Chonopost\Shipping\resultExpeditionValue
+     * @return \Chronopost\Shipping\resultExpeditionValue
      */
     public function setESDFullNumber($ESDFullNumber)
     {
@@ -76,7 +76,7 @@ class resultExpeditionValue
 
     /**
      * @param string $ESDNumber
-     * @return \Chonopost\Shipping\resultExpeditionValue
+     * @return \Chronopost\Shipping\resultExpeditionValue
      */
     public function setESDNumber($ESDNumber)
     {
@@ -94,7 +94,7 @@ class resultExpeditionValue
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Shipping\resultExpeditionValue
+     * @return \Chronopost\Shipping\resultExpeditionValue
      */
     public function setErrorCode($errorCode)
     {
@@ -112,7 +112,7 @@ class resultExpeditionValue
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Shipping\resultExpeditionValue
+     * @return \Chronopost\Shipping\resultExpeditionValue
      */
     public function setErrorMessage($errorMessage)
     {
@@ -138,7 +138,7 @@ class resultExpeditionValue
 
     /**
      * @param \DateTime $pickupDate
-     * @return \Chonopost\Shipping\resultExpeditionValue
+     * @return \Chronopost\Shipping\resultExpeditionValue
      */
     public function setPickupDate(\DateTime $pickupDate = null)
     {
@@ -160,7 +160,7 @@ class resultExpeditionValue
 
     /**
      * @param base64Binary $skybill
-     * @return \Chonopost\Shipping\resultExpeditionValue
+     * @return \Chronopost\Shipping\resultExpeditionValue
      */
     public function setSkybill($skybill)
     {
@@ -178,7 +178,7 @@ class resultExpeditionValue
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Shipping\resultExpeditionValue
+     * @return \Chronopost\Shipping\resultExpeditionValue
      */
     public function setSkybillNumber($skybillNumber)
     {

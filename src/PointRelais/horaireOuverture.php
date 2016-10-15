@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class horaireOuverture
 {
@@ -31,7 +31,7 @@ class horaireOuverture
 
     /**
      * @param string $debut
-     * @return \Chonopost\PointRelais\horaireOuverture
+     * @return \Chronopost\PointRelais\horaireOuverture
      */
     public function setDebut($debut)
     {
@@ -49,7 +49,7 @@ class horaireOuverture
 
     /**
      * @param string $fin
-     * @return \Chonopost\PointRelais\horaireOuverture
+     * @return \Chronopost\PointRelais\horaireOuverture
      */
     public function setFin($fin)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class pointChronopost
 {
@@ -106,7 +106,7 @@ class pointChronopost
 
     /**
      * @param string $adresse1
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setAdresse1($adresse1)
     {
@@ -124,7 +124,7 @@ class pointChronopost
 
     /**
      * @param string $adresse2
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setAdresse2($adresse2)
     {
@@ -142,7 +142,7 @@ class pointChronopost
 
     /**
      * @param string $adresse3
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setAdresse3($adresse3)
     {
@@ -160,7 +160,7 @@ class pointChronopost
 
     /**
      * @param string $codePostal
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setCodePostal($codePostal)
     {
@@ -186,7 +186,7 @@ class pointChronopost
 
     /**
      * @param \DateTime $dateArriveColis
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setDateArriveColis(\DateTime $dateArriveColis = null)
     {
@@ -208,7 +208,7 @@ class pointChronopost
 
     /**
      * @param string $horairesOuvertureDimanche
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setHorairesOuvertureDimanche($horairesOuvertureDimanche)
     {
@@ -226,7 +226,7 @@ class pointChronopost
 
     /**
      * @param string $horairesOuvertureJeudi
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setHorairesOuvertureJeudi($horairesOuvertureJeudi)
     {
@@ -244,7 +244,7 @@ class pointChronopost
 
     /**
      * @param string $horairesOuvertureLundi
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setHorairesOuvertureLundi($horairesOuvertureLundi)
     {
@@ -262,7 +262,7 @@ class pointChronopost
 
     /**
      * @param string $horairesOuvertureMardi
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setHorairesOuvertureMardi($horairesOuvertureMardi)
     {
@@ -280,7 +280,7 @@ class pointChronopost
 
     /**
      * @param string $horairesOuvertureMercredi
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setHorairesOuvertureMercredi($horairesOuvertureMercredi)
     {
@@ -298,7 +298,7 @@ class pointChronopost
 
     /**
      * @param string $horairesOuvertureSamedi
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setHorairesOuvertureSamedi($horairesOuvertureSamedi)
     {
@@ -316,7 +316,7 @@ class pointChronopost
 
     /**
      * @param string $horairesOuvertureVendredi
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setHorairesOuvertureVendredi($horairesOuvertureVendredi)
     {
@@ -334,7 +334,7 @@ class pointChronopost
 
     /**
      * @param string $horairesOuverturesFormates
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setHorairesOuverturesFormates($horairesOuverturesFormates)
     {
@@ -352,7 +352,7 @@ class pointChronopost
 
     /**
      * @param string $identifiantChronopost
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setIdentifiantChronopost($identifiantChronopost)
     {
@@ -370,7 +370,7 @@ class pointChronopost
 
     /**
      * @param string $localite
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setLocalite($localite)
     {
@@ -388,7 +388,7 @@ class pointChronopost
 
     /**
      * @param string $nomEnseigne
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setNomEnseigne($nomEnseigne)
     {
@@ -406,7 +406,7 @@ class pointChronopost
 
     /**
      * @param string $typeDePoint
-     * @return \Chonopost\PointRelais\pointChronopost
+     * @return \Chronopost\PointRelais\pointChronopost
      */
     public function setTypeDePoint($typeDePoint)
     {

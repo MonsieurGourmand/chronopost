@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class esdResultContraintesAgenceValue
 {
@@ -38,7 +38,7 @@ class esdResultContraintesAgenceValue
 
     /**
      * @param int $codeErreur
-     * @return \Chonopost\Shipping\esdResultContraintesAgenceValue
+     * @return \Chronopost\Shipping\esdResultContraintesAgenceValue
      */
     public function setCodeErreur($codeErreur)
     {
@@ -56,7 +56,7 @@ class esdResultContraintesAgenceValue
 
     /**
      * @param esdContraintesAgence[] $esdContraintesAgence
-     * @return \Chonopost\Shipping\esdResultContraintesAgenceValue
+     * @return \Chronopost\Shipping\esdResultContraintesAgenceValue
      */
     public function setEsdContraintesAgence(array $esdContraintesAgence = null)
     {
@@ -74,7 +74,7 @@ class esdResultContraintesAgenceValue
 
     /**
      * @param string $libelleErreur
-     * @return \Chonopost\Shipping\esdResultContraintesAgenceValue
+     * @return \Chronopost\Shipping\esdResultContraintesAgenceValue
      */
     public function setLibelleErreur($libelleErreur)
     {

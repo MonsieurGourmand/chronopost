@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class bureauDeTabac
 {
@@ -96,7 +96,7 @@ class bureauDeTabac
 
     /**
      * @param string $adresse1
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setAdresse1($adresse1)
     {
@@ -114,7 +114,7 @@ class bureauDeTabac
 
     /**
      * @param string $adresse2
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setAdresse2($adresse2)
     {
@@ -132,7 +132,7 @@ class bureauDeTabac
 
     /**
      * @param string $adresse3
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setAdresse3($adresse3)
     {
@@ -150,7 +150,7 @@ class bureauDeTabac
 
     /**
      * @param string $codePostal
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setCodePostal($codePostal)
     {
@@ -176,7 +176,7 @@ class bureauDeTabac
 
     /**
      * @param \DateTime $dateArriveColis
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setDateArriveColis(\DateTime $dateArriveColis = null)
     {
@@ -198,7 +198,7 @@ class bureauDeTabac
 
     /**
      * @param string $horairesOuvertureDimanche
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setHorairesOuvertureDimanche($horairesOuvertureDimanche)
     {
@@ -216,7 +216,7 @@ class bureauDeTabac
 
     /**
      * @param string $horairesOuvertureJeudi
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setHorairesOuvertureJeudi($horairesOuvertureJeudi)
     {
@@ -234,7 +234,7 @@ class bureauDeTabac
 
     /**
      * @param string $horairesOuvertureLundi
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setHorairesOuvertureLundi($horairesOuvertureLundi)
     {
@@ -252,7 +252,7 @@ class bureauDeTabac
 
     /**
      * @param string $horairesOuvertureMardi
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setHorairesOuvertureMardi($horairesOuvertureMardi)
     {
@@ -270,7 +270,7 @@ class bureauDeTabac
 
     /**
      * @param string $horairesOuvertureMercredi
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setHorairesOuvertureMercredi($horairesOuvertureMercredi)
     {
@@ -288,7 +288,7 @@ class bureauDeTabac
 
     /**
      * @param string $horairesOuvertureSamedi
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setHorairesOuvertureSamedi($horairesOuvertureSamedi)
     {
@@ -306,7 +306,7 @@ class bureauDeTabac
 
     /**
      * @param string $horairesOuvertureVendredi
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setHorairesOuvertureVendredi($horairesOuvertureVendredi)
     {
@@ -324,7 +324,7 @@ class bureauDeTabac
 
     /**
      * @param string $identifiantChronopostPointA2PAS
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setIdentifiantChronopostPointA2PAS($identifiantChronopostPointA2PAS)
     {
@@ -342,7 +342,7 @@ class bureauDeTabac
 
     /**
      * @param string $localite
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setLocalite($localite)
     {
@@ -360,7 +360,7 @@ class bureauDeTabac
 
     /**
      * @param string $nomEnseigne
-     * @return \Chonopost\PointRelais\bureauDeTabac
+     * @return \Chronopost\PointRelais\bureauDeTabac
      */
     public function setNomEnseigne($nomEnseigne)
     {

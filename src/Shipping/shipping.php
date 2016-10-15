@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shipping
 {
@@ -66,7 +66,7 @@ class shipping
 
     /**
      * @param esdValue $esdValue
-     * @return \Chonopost\Shipping\shipping
+     * @return \Chronopost\Shipping\shipping
      */
     public function setEsdValue($esdValue)
     {
@@ -84,7 +84,7 @@ class shipping
 
     /**
      * @param headerValue $headerValue
-     * @return \Chonopost\Shipping\shipping
+     * @return \Chronopost\Shipping\shipping
      */
     public function setHeaderValue($headerValue)
     {
@@ -102,7 +102,7 @@ class shipping
 
     /**
      * @param shipperValue $shipperValue
-     * @return \Chonopost\Shipping\shipping
+     * @return \Chronopost\Shipping\shipping
      */
     public function setShipperValue($shipperValue)
     {
@@ -120,7 +120,7 @@ class shipping
 
     /**
      * @param customerValue $customerValue
-     * @return \Chonopost\Shipping\shipping
+     * @return \Chronopost\Shipping\shipping
      */
     public function setCustomerValue($customerValue)
     {
@@ -138,7 +138,7 @@ class shipping
 
     /**
      * @param recipientValue $recipientValue
-     * @return \Chonopost\Shipping\shipping
+     * @return \Chronopost\Shipping\shipping
      */
     public function setRecipientValue($recipientValue)
     {
@@ -156,7 +156,7 @@ class shipping
 
     /**
      * @param refValue $refValue
-     * @return \Chonopost\Shipping\shipping
+     * @return \Chronopost\Shipping\shipping
      */
     public function setRefValue($refValue)
     {
@@ -174,7 +174,7 @@ class shipping
 
     /**
      * @param skybillValue $skybillValue
-     * @return \Chonopost\Shipping\shipping
+     * @return \Chronopost\Shipping\shipping
      */
     public function setSkybillValue($skybillValue)
     {
@@ -192,7 +192,7 @@ class shipping
 
     /**
      * @param skybillParamsValue $skybillParamsValue
-     * @return \Chonopost\Shipping\shipping
+     * @return \Chronopost\Shipping\shipping
      */
     public function setSkybillParamsValue($skybillParamsValue)
     {
@@ -210,7 +210,7 @@ class shipping
 
     /**
      * @param string $password
-     * @return \Chonopost\Shipping\shipping
+     * @return \Chronopost\Shipping\shipping
      */
     public function setPassword($password)
     {

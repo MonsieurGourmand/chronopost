@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class calculateDeliveryTimeResponse
 {
@@ -26,7 +26,7 @@ class calculateDeliveryTimeResponse
 
     /**
      * @param resultCalculateDeliveryTime $return
-     * @return \Chonopost\Quickcost\calculateDeliveryTimeResponse
+     * @return \Chronopost\Quickcost\calculateDeliveryTimeResponse
      */
     public function setReturn($return)
     {

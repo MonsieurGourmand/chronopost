@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class trackSearch
 {
@@ -76,7 +76,7 @@ class trackSearch
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setAccountNumber($accountNumber)
     {
@@ -94,7 +94,7 @@ class trackSearch
 
     /**
      * @param string $password
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setPassword($password)
     {
@@ -112,7 +112,7 @@ class trackSearch
 
     /**
      * @param string $language
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setLanguage($language)
     {
@@ -130,7 +130,7 @@ class trackSearch
 
     /**
      * @param string $consigneesCountry
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setConsigneesCountry($consigneesCountry)
     {
@@ -148,7 +148,7 @@ class trackSearch
 
     /**
      * @param string $consigneesRef
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setConsigneesRef($consigneesRef)
     {
@@ -166,7 +166,7 @@ class trackSearch
 
     /**
      * @param string $consigneesZipCode
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setConsigneesZipCode($consigneesZipCode)
     {
@@ -184,7 +184,7 @@ class trackSearch
 
     /**
      * @param string $dateDeposit
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setDateDeposit($dateDeposit)
     {
@@ -202,7 +202,7 @@ class trackSearch
 
     /**
      * @param string $dateEndDeposit
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setDateEndDeposit($dateEndDeposit)
     {
@@ -220,7 +220,7 @@ class trackSearch
 
     /**
      * @param string $parcelState
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setParcelState($parcelState)
     {
@@ -238,7 +238,7 @@ class trackSearch
 
     /**
      * @param string $sendersRef
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setSendersRef($sendersRef)
     {
@@ -256,7 +256,7 @@ class trackSearch
 
     /**
      * @param string $serviceCode
-     * @return \Chonopost\Tracking\trackSearch
+     * @return \Chronopost\Tracking\trackSearch
      */
     public function setServiceCode($serviceCode)
     {

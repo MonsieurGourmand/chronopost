@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class listeHoraireOuverturePourUnJour
 {
@@ -38,7 +38,7 @@ class listeHoraireOuverturePourUnJour
 
     /**
      * @param string $horairesAsString
-     * @return \Chonopost\PointRelais\listeHoraireOuverturePourUnJour
+     * @return \Chronopost\PointRelais\listeHoraireOuverturePourUnJour
      */
     public function setHorairesAsString($horairesAsString)
     {
@@ -56,7 +56,7 @@ class listeHoraireOuverturePourUnJour
 
     /**
      * @param int $jour
-     * @return \Chonopost\PointRelais\listeHoraireOuverturePourUnJour
+     * @return \Chronopost\PointRelais\listeHoraireOuverturePourUnJour
      */
     public function setJour($jour)
     {
@@ -74,7 +74,7 @@ class listeHoraireOuverturePourUnJour
 
     /**
      * @param horaireOuverture[] $listeHoraireOuverture
-     * @return \Chonopost\PointRelais\listeHoraireOuverturePourUnJour
+     * @return \Chronopost\PointRelais\listeHoraireOuverturePourUnJour
      */
     public function setListeHoraireOuverture(array $listeHoraireOuverture = null)
     {

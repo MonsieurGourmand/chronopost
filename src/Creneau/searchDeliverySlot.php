@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class searchDeliverySlot
 {
@@ -148,7 +148,7 @@ class searchDeliverySlot
 
     /**
      * @param string $callerTool
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setCallerTool($callerTool)
     {
@@ -166,7 +166,7 @@ class searchDeliverySlot
 
     /**
      * @param string $productType
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setProductType($productType)
     {
@@ -184,7 +184,7 @@ class searchDeliverySlot
 
     /**
      * @param string $shipperAdress1
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setShipperAdress1($shipperAdress1)
     {
@@ -202,7 +202,7 @@ class searchDeliverySlot
 
     /**
      * @param string $shipperAdress2
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setShipperAdress2($shipperAdress2)
     {
@@ -220,7 +220,7 @@ class searchDeliverySlot
 
     /**
      * @param string $shipperZipCode
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setShipperZipCode($shipperZipCode)
     {
@@ -238,7 +238,7 @@ class searchDeliverySlot
 
     /**
      * @param string $shipperCity
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setShipperCity($shipperCity)
     {
@@ -256,7 +256,7 @@ class searchDeliverySlot
 
     /**
      * @param string $shipperCountry
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setShipperCountry($shipperCountry)
     {
@@ -274,7 +274,7 @@ class searchDeliverySlot
 
     /**
      * @param string $recipientAdress1
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRecipientAdress1($recipientAdress1)
     {
@@ -292,7 +292,7 @@ class searchDeliverySlot
 
     /**
      * @param string $recipientAdress2
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRecipientAdress2($recipientAdress2)
     {
@@ -310,7 +310,7 @@ class searchDeliverySlot
 
     /**
      * @param string $recipientZipCode
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRecipientZipCode($recipientZipCode)
     {
@@ -328,7 +328,7 @@ class searchDeliverySlot
 
     /**
      * @param string $recipientCity
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRecipientCity($recipientCity)
     {
@@ -346,7 +346,7 @@ class searchDeliverySlot
 
     /**
      * @param string $recipientCountry
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRecipientCountry($recipientCountry)
     {
@@ -364,7 +364,7 @@ class searchDeliverySlot
 
     /**
      * @param string $injectionSite
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setInjectionSite($injectionSite)
     {
@@ -382,7 +382,7 @@ class searchDeliverySlot
 
     /**
      * @param int $weight
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setWeight($weight)
     {
@@ -408,7 +408,7 @@ class searchDeliverySlot
 
     /**
      * @param \DateTime $dateBegin
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setDateBegin(\DateTime $dateBegin = null)
     {
@@ -438,7 +438,7 @@ class searchDeliverySlot
 
     /**
      * @param \DateTime $dateEnd
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setDateEnd(\DateTime $dateEnd = null)
     {
@@ -460,7 +460,7 @@ class searchDeliverySlot
 
     /**
      * @param string[] $shipperDeliverySlotClosed
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setShipperDeliverySlotClosed(array $shipperDeliverySlotClosed = null)
     {
@@ -478,7 +478,7 @@ class searchDeliverySlot
 
     /**
      * @param string $currency
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setCurrency($currency)
     {
@@ -496,7 +496,7 @@ class searchDeliverySlot
 
     /**
      * @param string $rateN1
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRateN1($rateN1)
     {
@@ -514,7 +514,7 @@ class searchDeliverySlot
 
     /**
      * @param string $rateN2
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRateN2($rateN2)
     {
@@ -532,7 +532,7 @@ class searchDeliverySlot
 
     /**
      * @param string $rateN3
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRateN3($rateN3)
     {
@@ -550,7 +550,7 @@ class searchDeliverySlot
 
     /**
      * @param string $rateN4
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRateN4($rateN4)
     {
@@ -568,7 +568,7 @@ class searchDeliverySlot
 
     /**
      * @param string[] $rateLevelsNotShow
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setRateLevelsNotShow(array $rateLevelsNotShow = null)
     {
@@ -586,7 +586,7 @@ class searchDeliverySlot
 
     /**
      * @param boolean $isDeliveryDate
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setIsDeliveryDate($isDeliveryDate)
     {
@@ -604,7 +604,7 @@ class searchDeliverySlot
 
     /**
      * @param string $slotType
-     * @return \Chonopost\Creneau\searchDeliverySlot
+     * @return \Chronopost\Creneau\searchDeliverySlot
      */
     public function setSlotType($slotType)
     {

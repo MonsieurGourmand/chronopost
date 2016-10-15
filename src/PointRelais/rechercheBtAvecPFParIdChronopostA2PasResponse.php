@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class rechercheBtAvecPFParIdChronopostA2PasResponse
 {
@@ -26,7 +26,7 @@ class rechercheBtAvecPFParIdChronopostA2PasResponse
 
     /**
      * @param bureauDeTabacAvecPF[] $return
-     * @return \Chonopost\PointRelais\rechercheBtAvecPFParIdChronopostA2PasResponse
+     * @return \Chronopost\PointRelais\rechercheBtAvecPFParIdChronopostA2PasResponse
      */
     public function setReturn(array $return = null)
     {

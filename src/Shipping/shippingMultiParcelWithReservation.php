@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shippingMultiParcelWithReservation
 {
@@ -93,7 +93,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param esdWithRefClientValue $esdValue
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setEsdValue($esdValue)
     {
@@ -111,7 +111,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param headerValue $headerValue
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setHeaderValue($headerValue)
     {
@@ -129,7 +129,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param shipperValue $shipperValue
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setShipperValue($shipperValue)
     {
@@ -147,7 +147,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param customerValue $customerValue
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setCustomerValue($customerValue)
     {
@@ -165,7 +165,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param recipientValue[] $recipientValue
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setRecipientValue(array $recipientValue = null)
     {
@@ -183,7 +183,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param refValue[] $refValue
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setRefValue(array $refValue = null)
     {
@@ -201,7 +201,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param skybillWithDimensionsValue[] $skybillValue
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setSkybillValue(array $skybillValue = null)
     {
@@ -219,7 +219,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param skybillParamsValue $skybillParamsValue
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setSkybillParamsValue($skybillParamsValue)
     {
@@ -237,7 +237,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param string $password
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setPassword($password)
     {
@@ -255,7 +255,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param string $modeRetour
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setModeRetour($modeRetour)
     {
@@ -273,7 +273,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param int $numberOfParcel
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setNumberOfParcel($numberOfParcel)
     {
@@ -291,7 +291,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param string $version
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setVersion($version)
     {
@@ -309,7 +309,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param string $multiParcel
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setMultiParcel($multiParcel)
     {
@@ -327,7 +327,7 @@ class shippingMultiParcelWithReservation
 
     /**
      * @param scheduledValue $scheduledValue
-     * @return \Chonopost\Shipping\shippingMultiParcelWithReservation
+     * @return \Chronopost\Shipping\shippingMultiParcelWithReservation
      */
     public function setScheduledValue($scheduledValue)
     {

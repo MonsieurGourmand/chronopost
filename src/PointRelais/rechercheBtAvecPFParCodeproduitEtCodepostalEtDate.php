@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
 {
@@ -36,7 +36,7 @@ class rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
 
     /**
      * @param string $codeProduit
-     * @return \Chonopost\PointRelais\rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
+     * @return \Chronopost\PointRelais\rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
      */
     public function setCodeProduit($codeProduit)
     {
@@ -54,7 +54,7 @@ class rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
 
     /**
      * @param string $codePostal
-     * @return \Chonopost\PointRelais\rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
+     * @return \Chronopost\PointRelais\rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
      */
     public function setCodePostal($codePostal)
     {
@@ -72,7 +72,7 @@ class rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
 
     /**
      * @param string $date
-     * @return \Chonopost\PointRelais\rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
+     * @return \Chronopost\PointRelais\rechercheBtAvecPFParCodeproduitEtCodepostalEtDate
      */
     public function setDate($date)
     {

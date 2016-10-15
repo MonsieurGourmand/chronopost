@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class getAdresseGeocodageResponse
 {
@@ -26,7 +26,7 @@ class getAdresseGeocodageResponse
 
     /**
      * @param geocodageResponse $return
-     * @return \Chonopost\Creneau\getAdresseGeocodageResponse
+     * @return \Chronopost\Creneau\getAdresseGeocodageResponse
      */
     public function setReturn($return)
     {

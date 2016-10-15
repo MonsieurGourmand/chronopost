@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class listEvents
 {
@@ -31,7 +31,7 @@ class listEvents
 
     /**
      * @param event[] $events
-     * @return \Chonopost\Tracking\listEvents
+     * @return \Chronopost\Tracking\listEvents
      */
     public function setEvents(array $events = null)
     {
@@ -49,7 +49,7 @@ class listEvents
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Tracking\listEvents
+     * @return \Chronopost\Tracking\listEvents
      */
     public function setSkybillNumber($skybillNumber)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class headerValue
 {
@@ -45,7 +45,7 @@ class headerValue
 
     /**
      * @param int $accountNumber
-     * @return \Chonopost\Shipping\headerValue
+     * @return \Chronopost\Shipping\headerValue
      */
     public function setAccountNumber($accountNumber)
     {
@@ -63,7 +63,7 @@ class headerValue
 
     /**
      * @param string $idEmit
-     * @return \Chonopost\Shipping\headerValue
+     * @return \Chronopost\Shipping\headerValue
      */
     public function setIdEmit($idEmit)
     {
@@ -81,7 +81,7 @@ class headerValue
 
     /**
      * @param string $identWebPro
-     * @return \Chonopost\Shipping\headerValue
+     * @return \Chronopost\Shipping\headerValue
      */
     public function setIdentWebPro($identWebPro)
     {
@@ -99,7 +99,7 @@ class headerValue
 
     /**
      * @param int $subAccount
-     * @return \Chonopost\Shipping\headerValue
+     * @return \Chronopost\Shipping\headerValue
      */
     public function setSubAccount($subAccount)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class skybillWithDimensionsValueV2 extends skybillWithDimensionsValue
 {
@@ -31,7 +31,7 @@ class skybillWithDimensionsValueV2 extends skybillWithDimensionsValue
 
     /**
      * @param string $as
-     * @return \Chonopost\Shipping\skybillWithDimensionsValueV2
+     * @return \Chronopost\Shipping\skybillWithDimensionsValueV2
      */
     public function setAs($as)
     {

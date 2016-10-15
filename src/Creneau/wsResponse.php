@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class wsResponse
 {
@@ -33,7 +33,7 @@ class wsResponse
 
     /**
      * @param int $code
-     * @return \Chonopost\Creneau\wsResponse
+     * @return \Chronopost\Creneau\wsResponse
      */
     public function setCode($code)
     {
@@ -51,7 +51,7 @@ class wsResponse
 
     /**
      * @param string $message
-     * @return \Chonopost\Creneau\wsResponse
+     * @return \Chronopost\Creneau\wsResponse
      */
     public function setMessage($message)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class resultCalculateDeliveryTime
 {
@@ -46,7 +46,7 @@ class resultCalculateDeliveryTime
 
     /**
      * @param \DateTime $date
-     * @return \Chonopost\Quickcost\resultCalculateDeliveryTime
+     * @return \Chronopost\Quickcost\resultCalculateDeliveryTime
      */
     public function setDate(\DateTime $date = null)
     {
@@ -68,7 +68,7 @@ class resultCalculateDeliveryTime
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Quickcost\resultCalculateDeliveryTime
+     * @return \Chronopost\Quickcost\resultCalculateDeliveryTime
      */
     public function setErrorCode($errorCode)
     {
@@ -86,7 +86,7 @@ class resultCalculateDeliveryTime
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Quickcost\resultCalculateDeliveryTime
+     * @return \Chronopost\Quickcost\resultCalculateDeliveryTime
      */
     public function setErrorMessage($errorMessage)
     {

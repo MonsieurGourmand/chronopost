@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class resultReservationExpeditionValueV2 extends resultReservationExpeditionValue
 {
@@ -28,7 +28,7 @@ class resultReservationExpeditionValueV2 extends resultReservationExpeditionValu
 
     /**
      * @param string $asCode
-     * @return \Chonopost\Shipping\resultReservationExpeditionValueV2
+     * @return \Chronopost\Shipping\resultReservationExpeditionValueV2
      */
     public function setAsCode($asCode)
     {

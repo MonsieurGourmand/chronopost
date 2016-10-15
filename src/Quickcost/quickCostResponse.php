@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class quickCostResponse
 {
@@ -26,7 +26,7 @@ class quickCostResponse
 
     /**
      * @param resultQuickCostV2 $return
-     * @return \Chonopost\Quickcost\quickCostResponse
+     * @return \Chronopost\Quickcost\quickCostResponse
      */
     public function setReturn($return)
     {

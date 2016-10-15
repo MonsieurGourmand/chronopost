@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class confirmDeliverySlotV2Response
 {
@@ -26,7 +26,7 @@ class confirmDeliverySlotV2Response
 
     /**
      * @param serviceResponseV2 $return
-     * @return \Chonopost\Creneau\confirmDeliverySlotV2Response
+     * @return \Chronopost\Creneau\confirmDeliverySlotV2Response
      */
     public function setReturn($return)
     {

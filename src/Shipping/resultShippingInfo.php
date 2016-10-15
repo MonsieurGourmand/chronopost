@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class resultShippingInfo
 {
@@ -31,7 +31,7 @@ class resultShippingInfo
 
     /**
      * @param error $error
-     * @return \Chonopost\Shipping\resultShippingInfo
+     * @return \Chronopost\Shipping\resultShippingInfo
      */
     public function setError($error)
     {
@@ -49,7 +49,7 @@ class resultShippingInfo
 
     /**
      * @param shippingInfo $shippingInfo
-     * @return \Chonopost\Shipping\resultShippingInfo
+     * @return \Chronopost\Shipping\resultShippingInfo
      */
     public function setShippingInfo($shippingInfo)
     {

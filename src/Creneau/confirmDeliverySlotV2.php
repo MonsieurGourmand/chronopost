@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class confirmDeliverySlotV2
 {
@@ -61,7 +61,7 @@ class confirmDeliverySlotV2
 
     /**
      * @param string $callerTool
-     * @return \Chonopost\Creneau\confirmDeliverySlotV2
+     * @return \Chronopost\Creneau\confirmDeliverySlotV2
      */
     public function setCallerTool($callerTool)
     {
@@ -79,7 +79,7 @@ class confirmDeliverySlotV2
 
     /**
      * @param string $productType
-     * @return \Chonopost\Creneau\confirmDeliverySlotV2
+     * @return \Chronopost\Creneau\confirmDeliverySlotV2
      */
     public function setProductType($productType)
     {
@@ -97,7 +97,7 @@ class confirmDeliverySlotV2
 
     /**
      * @param string $codeSlot
-     * @return \Chonopost\Creneau\confirmDeliverySlotV2
+     * @return \Chronopost\Creneau\confirmDeliverySlotV2
      */
     public function setCodeSlot($codeSlot)
     {
@@ -115,7 +115,7 @@ class confirmDeliverySlotV2
 
     /**
      * @param string $meshCode
-     * @return \Chonopost\Creneau\confirmDeliverySlotV2
+     * @return \Chronopost\Creneau\confirmDeliverySlotV2
      */
     public function setMeshCode($meshCode)
     {
@@ -133,7 +133,7 @@ class confirmDeliverySlotV2
 
     /**
      * @param string $transactionID
-     * @return \Chonopost\Creneau\confirmDeliverySlotV2
+     * @return \Chronopost\Creneau\confirmDeliverySlotV2
      */
     public function setTransactionID($transactionID)
     {
@@ -151,7 +151,7 @@ class confirmDeliverySlotV2
 
     /**
      * @param string $rank
-     * @return \Chonopost\Creneau\confirmDeliverySlotV2
+     * @return \Chronopost\Creneau\confirmDeliverySlotV2
      */
     public function setRank($rank)
     {
@@ -169,7 +169,7 @@ class confirmDeliverySlotV2
 
     /**
      * @param string $position
-     * @return \Chonopost\Creneau\confirmDeliverySlotV2
+     * @return \Chronopost\Creneau\confirmDeliverySlotV2
      */
     public function setPosition($position)
     {
@@ -195,7 +195,7 @@ class confirmDeliverySlotV2
 
     /**
      * @param \DateTime $dateSelected
-     * @return \Chonopost\Creneau\confirmDeliverySlotV2
+     * @return \Chronopost\Creneau\confirmDeliverySlotV2
      */
     public function setDateSelected(\DateTime $dateSelected = null)
     {

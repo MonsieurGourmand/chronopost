@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class bureauDeTabacAvecPF extends bureauDeTabacAvecCoord
 {
@@ -62,7 +62,7 @@ class bureauDeTabacAvecPF extends bureauDeTabacAvecCoord
 
     /**
      * @param \DateTime $periodeDeFermeture1Debut
-     * @return \Chonopost\PointRelais\bureauDeTabacAvecPF
+     * @return \Chronopost\PointRelais\bureauDeTabacAvecPF
      */
     public function setPeriodeDeFermeture1Debut(\DateTime $periodeDeFermeture1Debut = null)
     {
@@ -92,7 +92,7 @@ class bureauDeTabacAvecPF extends bureauDeTabacAvecCoord
 
     /**
      * @param \DateTime $periodeDeFermeture1Fin
-     * @return \Chonopost\PointRelais\bureauDeTabacAvecPF
+     * @return \Chronopost\PointRelais\bureauDeTabacAvecPF
      */
     public function setPeriodeDeFermeture1Fin(\DateTime $periodeDeFermeture1Fin = null)
     {
@@ -122,7 +122,7 @@ class bureauDeTabacAvecPF extends bureauDeTabacAvecCoord
 
     /**
      * @param \DateTime $periodeDeFermeture2Debut
-     * @return \Chonopost\PointRelais\bureauDeTabacAvecPF
+     * @return \Chronopost\PointRelais\bureauDeTabacAvecPF
      */
     public function setPeriodeDeFermeture2Debut(\DateTime $periodeDeFermeture2Debut = null)
     {
@@ -152,7 +152,7 @@ class bureauDeTabacAvecPF extends bureauDeTabacAvecCoord
 
     /**
      * @param \DateTime $periodeDeFermeture2Fin
-     * @return \Chonopost\PointRelais\bureauDeTabacAvecPF
+     * @return \Chronopost\PointRelais\bureauDeTabacAvecPF
      */
     public function setPeriodeDeFermeture2Fin(\DateTime $periodeDeFermeture2Fin = null)
     {
@@ -182,7 +182,7 @@ class bureauDeTabacAvecPF extends bureauDeTabacAvecCoord
 
     /**
      * @param \DateTime $periodeDeFermeture3Debut
-     * @return \Chonopost\PointRelais\bureauDeTabacAvecPF
+     * @return \Chronopost\PointRelais\bureauDeTabacAvecPF
      */
     public function setPeriodeDeFermeture3Debut(\DateTime $periodeDeFermeture3Debut = null)
     {
@@ -212,7 +212,7 @@ class bureauDeTabacAvecPF extends bureauDeTabacAvecCoord
 
     /**
      * @param \DateTime $periodeDeFermeture3Fin
-     * @return \Chonopost\PointRelais\bureauDeTabacAvecPF
+     * @return \Chronopost\PointRelais\bureauDeTabacAvecPF
      */
     public function setPeriodeDeFermeture3Fin(\DateTime $periodeDeFermeture3Fin = null)
     {

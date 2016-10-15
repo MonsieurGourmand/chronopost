@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shippingV4
 {
@@ -76,7 +76,7 @@ class shippingV4
 
     /**
      * @param esdValue $esdValue
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setEsdValue($esdValue)
     {
@@ -94,7 +94,7 @@ class shippingV4
 
     /**
      * @param headerValue $headerValue
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setHeaderValue($headerValue)
     {
@@ -112,7 +112,7 @@ class shippingV4
 
     /**
      * @param shipperValue $shipperValue
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setShipperValue($shipperValue)
     {
@@ -130,7 +130,7 @@ class shippingV4
 
     /**
      * @param customerValue $customerValue
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setCustomerValue($customerValue)
     {
@@ -148,7 +148,7 @@ class shippingV4
 
     /**
      * @param recipientValue $recipientValue
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setRecipientValue($recipientValue)
     {
@@ -166,7 +166,7 @@ class shippingV4
 
     /**
      * @param refValue $refValue
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setRefValue($refValue)
     {
@@ -184,7 +184,7 @@ class shippingV4
 
     /**
      * @param skybillValueV2 $skybillValue
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setSkybillValue($skybillValue)
     {
@@ -202,7 +202,7 @@ class shippingV4
 
     /**
      * @param skybillParamsValue $skybillParamsValue
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setSkybillParamsValue($skybillParamsValue)
     {
@@ -220,7 +220,7 @@ class shippingV4
 
     /**
      * @param string $password
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setPassword($password)
     {
@@ -238,7 +238,7 @@ class shippingV4
 
     /**
      * @param string $version
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setVersion($version)
     {
@@ -256,7 +256,7 @@ class shippingV4
 
     /**
      * @param scheduledValue $scheduledValue
-     * @return \Chonopost\Shipping\shippingV4
+     * @return \Chronopost\Shipping\shippingV4
      */
     public function setScheduledValue($scheduledValue)
     {

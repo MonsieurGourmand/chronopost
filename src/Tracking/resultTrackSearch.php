@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class resultTrackSearch
 {
@@ -38,7 +38,7 @@ class resultTrackSearch
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Tracking\resultTrackSearch
+     * @return \Chronopost\Tracking\resultTrackSearch
      */
     public function setErrorCode($errorCode)
     {
@@ -56,7 +56,7 @@ class resultTrackSearch
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Tracking\resultTrackSearch
+     * @return \Chronopost\Tracking\resultTrackSearch
      */
     public function setErrorMessage($errorMessage)
     {
@@ -74,7 +74,7 @@ class resultTrackSearch
 
     /**
      * @param infosPOD[] $listInfosPOD
-     * @return \Chonopost\Tracking\resultTrackSearch
+     * @return \Chronopost\Tracking\resultTrackSearch
      */
     public function setListInfosPOD(array $listInfosPOD = null)
     {

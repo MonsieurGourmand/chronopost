@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class esdValue3 extends esdWithRefClientValue
 {
@@ -37,7 +37,7 @@ class esdValue3 extends esdWithRefClientValue
 
     /**
      * @param string $codeDepotColReq
-     * @return \Chonopost\Shipping\esdValue3
+     * @return \Chronopost\Shipping\esdValue3
      */
     public function setCodeDepotColReq($codeDepotColReq)
     {
@@ -55,7 +55,7 @@ class esdValue3 extends esdWithRefClientValue
 
     /**
      * @param string $numColReq
-     * @return \Chonopost\Shipping\esdValue3
+     * @return \Chronopost\Shipping\esdValue3
      */
     public function setNumColReq($numColReq)
     {

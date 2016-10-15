@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class eventInfoComp extends event
 {
@@ -26,7 +26,7 @@ class eventInfoComp extends event
 
     /**
      * @param infoComp[] $infoCompList
-     * @return \Chonopost\Tracking\eventInfoComp
+     * @return \Chronopost\Tracking\eventInfoComp
      */
     public function setInfoCompList(array $infoCompList = null)
     {

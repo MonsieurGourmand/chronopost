@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class TrackingServiceWSService extends \BeSimple\SoapClient\SoapClient
 {
@@ -9,34 +9,34 @@ class TrackingServiceWSService extends \BeSimple\SoapClient\SoapClient
      * @var array $classmap The defined classes
      */
     private static $classmap = array (
-      'resultTrackWithSenderRef' => 'Chonopost\\Tracking\\resultTrackWithSenderRef',
-      'listEvents' => 'Chonopost\\Tracking\\listEvents',
-      'event' => 'Chonopost\\Tracking\\event',
-      'resultTrackSearch' => 'Chonopost\\Tracking\\resultTrackSearch',
-      'infosPOD' => 'Chonopost\\Tracking\\infosPOD',
-      'resultTrackSkybillV2' => 'Chonopost\\Tracking\\resultTrackSkybillV2',
-      'listEventInfoComps' => 'Chonopost\\Tracking\\listEventInfoComps',
-      'eventInfoComp' => 'Chonopost\\Tracking\\eventInfoComp',
-      'infoComp' => 'Chonopost\\Tracking\\infoComp',
-      'resultCancelSkybill' => 'Chonopost\\Tracking\\resultCancelSkybill',
-      'resultTrackSkybill' => 'Chonopost\\Tracking\\resultTrackSkybill',
-      'resultSearchPOD' => 'Chonopost\\Tracking\\resultSearchPOD',
-      'resultSearchPODWithSenderRef' => 'Chonopost\\Tracking\\resultSearchPODWithSenderRef',
-      'parcelPOD' => 'Chonopost\\Tracking\\parcelPOD',
-      'trackWithSenderRef' => 'Chonopost\\Tracking\\trackWithSenderRef',
-      'trackWithSenderRefResponse' => 'Chonopost\\Tracking\\trackWithSenderRefResponse',
-      'trackSearch' => 'Chonopost\\Tracking\\trackSearch',
-      'trackSearchResponse' => 'Chonopost\\Tracking\\trackSearchResponse',
-      'trackSkybillV2' => 'Chonopost\\Tracking\\trackSkybillV2',
-      'trackSkybillV2Response' => 'Chonopost\\Tracking\\trackSkybillV2Response',
-      'cancelSkybill' => 'Chonopost\\Tracking\\cancelSkybill',
-      'cancelSkybillResponse' => 'Chonopost\\Tracking\\cancelSkybillResponse',
-      'trackSkybill' => 'Chonopost\\Tracking\\trackSkybill',
-      'trackSkybillResponse' => 'Chonopost\\Tracking\\trackSkybillResponse',
-      'searchPOD' => 'Chonopost\\Tracking\\searchPOD',
-      'searchPODResponse' => 'Chonopost\\Tracking\\searchPODResponse',
-      'searchPODWithSenderRef' => 'Chonopost\\Tracking\\searchPODWithSenderRef',
-      'searchPODWithSenderRefResponse' => 'Chonopost\\Tracking\\searchPODWithSenderRefResponse',
+      'resultTrackWithSenderRef' => 'Chronopost\\Tracking\\resultTrackWithSenderRef',
+      'listEvents' => 'Chronopost\\Tracking\\listEvents',
+      'event' => 'Chronopost\\Tracking\\event',
+      'resultTrackSearch' => 'Chronopost\\Tracking\\resultTrackSearch',
+      'infosPOD' => 'Chronopost\\Tracking\\infosPOD',
+      'resultTrackSkybillV2' => 'Chronopost\\Tracking\\resultTrackSkybillV2',
+      'listEventInfoComps' => 'Chronopost\\Tracking\\listEventInfoComps',
+      'eventInfoComp' => 'Chronopost\\Tracking\\eventInfoComp',
+      'infoComp' => 'Chronopost\\Tracking\\infoComp',
+      'resultCancelSkybill' => 'Chronopost\\Tracking\\resultCancelSkybill',
+      'resultTrackSkybill' => 'Chronopost\\Tracking\\resultTrackSkybill',
+      'resultSearchPOD' => 'Chronopost\\Tracking\\resultSearchPOD',
+      'resultSearchPODWithSenderRef' => 'Chronopost\\Tracking\\resultSearchPODWithSenderRef',
+      'parcelPOD' => 'Chronopost\\Tracking\\parcelPOD',
+      'trackWithSenderRef' => 'Chronopost\\Tracking\\trackWithSenderRef',
+      'trackWithSenderRefResponse' => 'Chronopost\\Tracking\\trackWithSenderRefResponse',
+      'trackSearch' => 'Chronopost\\Tracking\\trackSearch',
+      'trackSearchResponse' => 'Chronopost\\Tracking\\trackSearchResponse',
+      'trackSkybillV2' => 'Chronopost\\Tracking\\trackSkybillV2',
+      'trackSkybillV2Response' => 'Chronopost\\Tracking\\trackSkybillV2Response',
+      'cancelSkybill' => 'Chronopost\\Tracking\\cancelSkybill',
+      'cancelSkybillResponse' => 'Chronopost\\Tracking\\cancelSkybillResponse',
+      'trackSkybill' => 'Chronopost\\Tracking\\trackSkybill',
+      'trackSkybillResponse' => 'Chronopost\\Tracking\\trackSkybillResponse',
+      'searchPOD' => 'Chronopost\\Tracking\\searchPOD',
+      'searchPODResponse' => 'Chronopost\\Tracking\\searchPODResponse',
+      'searchPODWithSenderRef' => 'Chronopost\\Tracking\\searchPODWithSenderRef',
+      'searchPODWithSenderRefResponse' => 'Chronopost\\Tracking\\searchPODWithSenderRefResponse',
     );
 
     /**

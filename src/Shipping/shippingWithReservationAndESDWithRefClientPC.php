@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shippingWithReservationAndESDWithRefClientPC
 {
@@ -481,7 +481,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $refEsdClient
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRefEsdClient($refEsdClient)
     {
@@ -499,7 +499,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $retrievalDateTime
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRetrievalDateTime($retrievalDateTime)
     {
@@ -517,7 +517,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $closingDateTime
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setClosingDateTime($closingDateTime)
     {
@@ -535,7 +535,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $specificInstructions
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setSpecificInstructions($specificInstructions)
     {
@@ -553,7 +553,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $height
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setHeight($height)
     {
@@ -571,7 +571,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $width
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setWidth($width)
     {
@@ -589,7 +589,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $length
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setLength($length)
     {
@@ -607,7 +607,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperCarriesCode
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCarriesCode($shipperCarriesCode)
     {
@@ -625,7 +625,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperBuildingFloor
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperBuildingFloor($shipperBuildingFloor)
     {
@@ -643,7 +643,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperServiceDirection
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperServiceDirection($shipperServiceDirection)
     {
@@ -661,7 +661,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $nombreDePassageMaximum
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setNombreDePassageMaximum($nombreDePassageMaximum)
     {
@@ -679,7 +679,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $ltAImprimerParChronopost
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setLtAImprimerParChronopost($ltAImprimerParChronopost)
     {
@@ -697,7 +697,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $header_idEmit
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setHeader_idEmit($header_idEmit)
     {
@@ -715,7 +715,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setAccountNumber($accountNumber)
     {
@@ -733,7 +733,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $subAccount
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setSubAccount($subAccount)
     {
@@ -751,7 +751,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $header_identWebPro
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setHeader_identWebPro($header_identWebPro)
     {
@@ -769,7 +769,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperCivility
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCivility($shipperCivility)
     {
@@ -787,7 +787,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperName
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperName($shipperName)
     {
@@ -805,7 +805,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperName2
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperName2($shipperName2)
     {
@@ -823,7 +823,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperAdress1
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperAdress1($shipperAdress1)
     {
@@ -841,7 +841,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperAdress2
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperAdress2($shipperAdress2)
     {
@@ -859,7 +859,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperZipCode
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperZipCode($shipperZipCode)
     {
@@ -877,7 +877,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperCity
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCity($shipperCity)
     {
@@ -895,7 +895,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperCountry
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCountry($shipperCountry)
     {
@@ -913,7 +913,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperCountryName
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperCountryName($shipperCountryName)
     {
@@ -931,7 +931,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperContactName
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperContactName($shipperContactName)
     {
@@ -949,7 +949,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperEmail
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperEmail($shipperEmail)
     {
@@ -967,7 +967,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperPhone
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperPhone($shipperPhone)
     {
@@ -985,7 +985,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperMobilePhone
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperMobilePhone($shipperMobilePhone)
     {
@@ -1003,7 +1003,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerCivility
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerCivility($customerCivility)
     {
@@ -1021,7 +1021,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerName
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerName($customerName)
     {
@@ -1039,7 +1039,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerName2
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerName2($customerName2)
     {
@@ -1057,7 +1057,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerAdress1
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerAdress1($customerAdress1)
     {
@@ -1075,7 +1075,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerAdress2
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerAdress2($customerAdress2)
     {
@@ -1093,7 +1093,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerZipCode
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerZipCode($customerZipCode)
     {
@@ -1111,7 +1111,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerCity
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerCity($customerCity)
     {
@@ -1129,7 +1129,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerCountry
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerCountry($customerCountry)
     {
@@ -1147,7 +1147,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerCountryName
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerCountryName($customerCountryName)
     {
@@ -1165,7 +1165,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerContactName
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerContactName($customerContactName)
     {
@@ -1183,7 +1183,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerEmail
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerEmail($customerEmail)
     {
@@ -1201,7 +1201,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerPhone
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerPhone($customerPhone)
     {
@@ -1219,7 +1219,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerMobilePhone
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerMobilePhone($customerMobilePhone)
     {
@@ -1237,7 +1237,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerPreAlert
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerPreAlert($customerPreAlert)
     {
@@ -1255,7 +1255,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientCivility
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientCivility($recipientCivility)
     {
@@ -1273,7 +1273,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientName
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientName($recipientName)
     {
@@ -1291,7 +1291,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientName2
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientName2($recipientName2)
     {
@@ -1309,7 +1309,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientAdress1
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientAdress1($recipientAdress1)
     {
@@ -1327,7 +1327,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientAdress2
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientAdress2($recipientAdress2)
     {
@@ -1345,7 +1345,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientZipCode
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientZipCode($recipientZipCode)
     {
@@ -1363,7 +1363,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientCity
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientCity($recipientCity)
     {
@@ -1381,7 +1381,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientCountry
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientCountry($recipientCountry)
     {
@@ -1399,7 +1399,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientCountryName
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientCountryName($recipientCountryName)
     {
@@ -1417,7 +1417,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientContactName
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientContactName($recipientContactName)
     {
@@ -1435,7 +1435,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientEmail
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientEmail($recipientEmail)
     {
@@ -1453,7 +1453,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientPhone
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientPhone($recipientPhone)
     {
@@ -1471,7 +1471,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientMobilePhone
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientMobilePhone($recipientMobilePhone)
     {
@@ -1489,7 +1489,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientPreAlert
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientPreAlert($recipientPreAlert)
     {
@@ -1507,7 +1507,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipperRef
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipperRef($shipperRef)
     {
@@ -1525,7 +1525,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $recipientRef
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setRecipientRef($recipientRef)
     {
@@ -1543,7 +1543,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customerSkybillNumber
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomerSkybillNumber($customerSkybillNumber)
     {
@@ -1561,7 +1561,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $evtCode
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setEvtCode($evtCode)
     {
@@ -1579,7 +1579,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $productCode
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setProductCode($productCode)
     {
@@ -1597,7 +1597,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipDate
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipDate($shipDate)
     {
@@ -1615,7 +1615,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $shipHour
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setShipHour($shipHour)
     {
@@ -1633,7 +1633,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $weight
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setWeight($weight)
     {
@@ -1651,7 +1651,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $weightUnit
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setWeightUnit($weightUnit)
     {
@@ -1669,7 +1669,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $insuredValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setInsuredValue($insuredValue)
     {
@@ -1687,7 +1687,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $insuredCurrency
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setInsuredCurrency($insuredCurrency)
     {
@@ -1705,7 +1705,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $codValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCodValue($codValue)
     {
@@ -1723,7 +1723,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $codCurrency
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCodCurrency($codCurrency)
     {
@@ -1741,7 +1741,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customsValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomsValue($customsValue)
     {
@@ -1759,7 +1759,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $customsCurrency
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setCustomsCurrency($customsCurrency)
     {
@@ -1777,7 +1777,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $service
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setService($service)
     {
@@ -1795,7 +1795,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $as
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setAs($as)
     {
@@ -1813,7 +1813,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $objectType
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setObjectType($objectType)
     {
@@ -1831,7 +1831,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $content1
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setContent1($content1)
     {
@@ -1849,7 +1849,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $content2
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setContent2($content2)
     {
@@ -1867,7 +1867,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $content3
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setContent3($content3)
     {
@@ -1885,7 +1885,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $content4
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setContent4($content4)
     {
@@ -1903,7 +1903,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $content5
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setContent5($content5)
     {
@@ -1921,7 +1921,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $portValue
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setPortValue($portValue)
     {
@@ -1939,7 +1939,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $portCurrency
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setPortCurrency($portCurrency)
     {
@@ -1957,7 +1957,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $skybillRank
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setSkybillRank($skybillRank)
     {
@@ -1975,7 +1975,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $bulkNumber
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setBulkNumber($bulkNumber)
     {
@@ -1993,7 +1993,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $mode
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setMode($mode)
     {
@@ -2011,7 +2011,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $password
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setPassword($password)
     {
@@ -2029,7 +2029,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $modeRetour
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setModeRetour($modeRetour)
     {
@@ -2047,7 +2047,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $timeSlotStartDate
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setTimeSlotStartDate($timeSlotStartDate)
     {
@@ -2065,7 +2065,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $timeSlotEndDate
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setTimeSlotEndDate($timeSlotEndDate)
     {
@@ -2083,7 +2083,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $timeSlotTariffLevel
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setTimeSlotTariffLevel($timeSlotTariffLevel)
     {
@@ -2101,7 +2101,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $expirationDate
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setExpirationDate($expirationDate)
     {
@@ -2119,7 +2119,7 @@ class shippingWithReservationAndESDWithRefClientPC
 
     /**
      * @param string $sellByDate
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPC
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPC
      */
     public function setSellByDate($sellByDate)
     {

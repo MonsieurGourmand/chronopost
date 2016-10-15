@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class productService
 {
@@ -31,7 +31,7 @@ class productService
 
     /**
      * @param string $productCode
-     * @return \Chonopost\Creneau\productService
+     * @return \Chronopost\Creneau\productService
      */
     public function setProductCode($productCode)
     {
@@ -49,7 +49,7 @@ class productService
 
     /**
      * @param string $serviceCode
-     * @return \Chonopost\Creneau\productService
+     * @return \Chronopost\Creneau\productService
      */
     public function setServiceCode($serviceCode)
     {

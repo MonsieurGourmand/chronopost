@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shippingWithESDOnly
 {
@@ -76,7 +76,7 @@ class shippingWithESDOnly
 
     /**
      * @param esdWithRefClientValue $esdValue
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setEsdValue($esdValue)
     {
@@ -94,7 +94,7 @@ class shippingWithESDOnly
 
     /**
      * @param headerValue $headerValue
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setHeaderValue($headerValue)
     {
@@ -112,7 +112,7 @@ class shippingWithESDOnly
 
     /**
      * @param shipperValue $shipperValue
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setShipperValue($shipperValue)
     {
@@ -130,7 +130,7 @@ class shippingWithESDOnly
 
     /**
      * @param customerValue $customerValue
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setCustomerValue($customerValue)
     {
@@ -148,7 +148,7 @@ class shippingWithESDOnly
 
     /**
      * @param recipientValue $recipientValue
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setRecipientValue($recipientValue)
     {
@@ -166,7 +166,7 @@ class shippingWithESDOnly
 
     /**
      * @param refValue $refValue
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setRefValue($refValue)
     {
@@ -184,7 +184,7 @@ class shippingWithESDOnly
 
     /**
      * @param skybillValue $skybillValue
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setSkybillValue($skybillValue)
     {
@@ -202,7 +202,7 @@ class shippingWithESDOnly
 
     /**
      * @param skybillParamsValue $skybillParamsValue
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setSkybillParamsValue($skybillParamsValue)
     {
@@ -220,7 +220,7 @@ class shippingWithESDOnly
 
     /**
      * @param string $password
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setPassword($password)
     {
@@ -238,7 +238,7 @@ class shippingWithESDOnly
 
     /**
      * @param string $modeRetour
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setModeRetour($modeRetour)
     {
@@ -256,7 +256,7 @@ class shippingWithESDOnly
 
     /**
      * @param string $version
-     * @return \Chonopost\Shipping\shippingWithESDOnly
+     * @return \Chronopost\Shipping\shippingWithESDOnly
      */
     public function setVersion($version)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class slot
 {
@@ -109,7 +109,7 @@ class slot
 
     /**
      * @param string $deliverySlotCode
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setDeliverySlotCode($deliverySlotCode)
     {
@@ -127,7 +127,7 @@ class slot
 
     /**
      * @param string $deliveryDate
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setDeliveryDate($deliveryDate)
     {
@@ -145,7 +145,7 @@ class slot
 
     /**
      * @param int $dayOfWeek
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setDayOfWeek($dayOfWeek)
     {
@@ -163,7 +163,7 @@ class slot
 
     /**
      * @param int $startHour
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setStartHour($startHour)
     {
@@ -181,7 +181,7 @@ class slot
 
     /**
      * @param int $startMinutes
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setStartMinutes($startMinutes)
     {
@@ -199,7 +199,7 @@ class slot
 
     /**
      * @param int $endHour
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setEndHour($endHour)
     {
@@ -217,7 +217,7 @@ class slot
 
     /**
      * @param int $endMinutes
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setEndMinutes($endMinutes)
     {
@@ -235,7 +235,7 @@ class slot
 
     /**
      * @param string $tariffLevel
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setTariffLevel($tariffLevel)
     {
@@ -253,7 +253,7 @@ class slot
 
     /**
      * @param string $status
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setStatus($status)
     {
@@ -271,7 +271,7 @@ class slot
 
     /**
      * @param string $codeStatus
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setCodeStatus($codeStatus)
     {
@@ -289,7 +289,7 @@ class slot
 
     /**
      * @param int $note
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setNote($note)
     {
@@ -307,7 +307,7 @@ class slot
 
     /**
      * @param boolean $incentiveFlag
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setIncentiveFlag($incentiveFlag)
     {
@@ -325,7 +325,7 @@ class slot
 
     /**
      * @param int $rawRank
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setRawRank($rawRank)
     {
@@ -343,7 +343,7 @@ class slot
 
     /**
      * @param int $rank
-     * @return \Chonopost\Creneau\slot
+     * @return \Chronopost\Creneau\slot
      */
     public function setRank($rank)
     {

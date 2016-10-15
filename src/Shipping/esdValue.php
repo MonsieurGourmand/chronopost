@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class esdValue
 {
@@ -80,7 +80,7 @@ class esdValue
 
     /**
      * @param \DateTime $closingDateTime
-     * @return \Chonopost\Shipping\esdValue
+     * @return \Chronopost\Shipping\esdValue
      */
     public function setClosingDateTime(\DateTime $closingDateTime = null)
     {
@@ -102,7 +102,7 @@ class esdValue
 
     /**
      * @param float $height
-     * @return \Chonopost\Shipping\esdValue
+     * @return \Chronopost\Shipping\esdValue
      */
     public function setHeight($height)
     {
@@ -120,7 +120,7 @@ class esdValue
 
     /**
      * @param float $length
-     * @return \Chonopost\Shipping\esdValue
+     * @return \Chronopost\Shipping\esdValue
      */
     public function setLength($length)
     {
@@ -146,7 +146,7 @@ class esdValue
 
     /**
      * @param \DateTime $retrievalDateTime
-     * @return \Chonopost\Shipping\esdValue
+     * @return \Chronopost\Shipping\esdValue
      */
     public function setRetrievalDateTime(\DateTime $retrievalDateTime = null)
     {
@@ -168,7 +168,7 @@ class esdValue
 
     /**
      * @param string $shipperBuildingFloor
-     * @return \Chonopost\Shipping\esdValue
+     * @return \Chronopost\Shipping\esdValue
      */
     public function setShipperBuildingFloor($shipperBuildingFloor)
     {
@@ -186,7 +186,7 @@ class esdValue
 
     /**
      * @param string $shipperCarriesCode
-     * @return \Chonopost\Shipping\esdValue
+     * @return \Chronopost\Shipping\esdValue
      */
     public function setShipperCarriesCode($shipperCarriesCode)
     {
@@ -204,7 +204,7 @@ class esdValue
 
     /**
      * @param string $shipperServiceDirection
-     * @return \Chonopost\Shipping\esdValue
+     * @return \Chronopost\Shipping\esdValue
      */
     public function setShipperServiceDirection($shipperServiceDirection)
     {
@@ -222,7 +222,7 @@ class esdValue
 
     /**
      * @param string $specificInstructions
-     * @return \Chonopost\Shipping\esdValue
+     * @return \Chronopost\Shipping\esdValue
      */
     public function setSpecificInstructions($specificInstructions)
     {
@@ -240,7 +240,7 @@ class esdValue
 
     /**
      * @param float $width
-     * @return \Chonopost\Shipping\esdValue
+     * @return \Chronopost\Shipping\esdValue
      */
     public function setWidth($width)
     {

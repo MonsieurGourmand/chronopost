@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class rechercheTourneeParTypeTourneeEtPosteComptable
 {
@@ -36,7 +36,7 @@ class rechercheTourneeParTypeTourneeEtPosteComptable
 
     /**
      * @param string $codeTournee
-     * @return \Chonopost\PointRelais\rechercheTourneeParTypeTourneeEtPosteComptable
+     * @return \Chronopost\PointRelais\rechercheTourneeParTypeTourneeEtPosteComptable
      */
     public function setCodeTournee($codeTournee)
     {
@@ -54,7 +54,7 @@ class rechercheTourneeParTypeTourneeEtPosteComptable
 
     /**
      * @param string $typeTournee
-     * @return \Chonopost\PointRelais\rechercheTourneeParTypeTourneeEtPosteComptable
+     * @return \Chronopost\PointRelais\rechercheTourneeParTypeTourneeEtPosteComptable
      */
     public function setTypeTournee($typeTournee)
     {
@@ -72,7 +72,7 @@ class rechercheTourneeParTypeTourneeEtPosteComptable
 
     /**
      * @param string $posteComptable
-     * @return \Chonopost\PointRelais\rechercheTourneeParTypeTourneeEtPosteComptable
+     * @return \Chronopost\PointRelais\rechercheTourneeParTypeTourneeEtPosteComptable
      */
     public function setPosteComptable($posteComptable)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class tournee
 {
@@ -38,7 +38,7 @@ class tournee
 
     /**
      * @param string $code
-     * @return \Chonopost\PointRelais\tournee
+     * @return \Chronopost\PointRelais\tournee
      */
     public function setCode($code)
     {
@@ -56,7 +56,7 @@ class tournee
 
     /**
      * @param boolean $localise
-     * @return \Chonopost\PointRelais\tournee
+     * @return \Chronopost\PointRelais\tournee
      */
     public function setLocalise($localise)
     {
@@ -74,7 +74,7 @@ class tournee
 
     /**
      * @param string $type
-     * @return \Chonopost\PointRelais\tournee
+     * @return \Chronopost\PointRelais\tournee
      */
     public function setType($type)
     {

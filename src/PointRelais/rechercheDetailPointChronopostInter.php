@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class rechercheDetailPointChronopostInter
 {
@@ -51,7 +51,7 @@ class rechercheDetailPointChronopostInter
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\PointRelais\rechercheDetailPointChronopostInter
+     * @return \Chronopost\PointRelais\rechercheDetailPointChronopostInter
      */
     public function setAccountNumber($accountNumber)
     {
@@ -69,7 +69,7 @@ class rechercheDetailPointChronopostInter
 
     /**
      * @param string $password
-     * @return \Chonopost\PointRelais\rechercheDetailPointChronopostInter
+     * @return \Chronopost\PointRelais\rechercheDetailPointChronopostInter
      */
     public function setPassword($password)
     {
@@ -87,7 +87,7 @@ class rechercheDetailPointChronopostInter
 
     /**
      * @param string $identifiant
-     * @return \Chonopost\PointRelais\rechercheDetailPointChronopostInter
+     * @return \Chronopost\PointRelais\rechercheDetailPointChronopostInter
      */
     public function setIdentifiant($identifiant)
     {
@@ -105,7 +105,7 @@ class rechercheDetailPointChronopostInter
 
     /**
      * @param string $countryCode
-     * @return \Chonopost\PointRelais\rechercheDetailPointChronopostInter
+     * @return \Chronopost\PointRelais\rechercheDetailPointChronopostInter
      */
     public function setCountryCode($countryCode)
     {
@@ -123,7 +123,7 @@ class rechercheDetailPointChronopostInter
 
     /**
      * @param string $language
-     * @return \Chonopost\PointRelais\rechercheDetailPointChronopostInter
+     * @return \Chronopost\PointRelais\rechercheDetailPointChronopostInter
      */
     public function setLanguage($language)
     {
@@ -141,7 +141,7 @@ class rechercheDetailPointChronopostInter
 
     /**
      * @param string $version
-     * @return \Chonopost\PointRelais\rechercheDetailPointChronopostInter
+     * @return \Chronopost\PointRelais\rechercheDetailPointChronopostInter
      */
     public function setVersion($version)
     {

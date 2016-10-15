@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class skybillValueV2 extends skybillValue
 {
@@ -28,7 +28,7 @@ class skybillValueV2 extends skybillValue
 
     /**
      * @param string $as
-     * @return \Chonopost\Shipping\skybillValueV2
+     * @return \Chronopost\Shipping\skybillValueV2
      */
     public function setAs($as)
     {

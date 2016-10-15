@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shippingWithReservationAndESDWithRefClientPCResponse
 {
@@ -26,7 +26,7 @@ class shippingWithReservationAndESDWithRefClientPCResponse
 
     /**
      * @param resultReservationExpeditionValue $return
-     * @return \Chonopost\Shipping\shippingWithReservationAndESDWithRefClientPCResponse
+     * @return \Chronopost\Shipping\shippingWithReservationAndESDWithRefClientPCResponse
      */
     public function setReturn($return)
     {

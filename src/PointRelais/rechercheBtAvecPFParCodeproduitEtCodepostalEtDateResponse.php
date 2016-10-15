@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class rechercheBtAvecPFParCodeproduitEtCodepostalEtDateResponse
 {
@@ -26,7 +26,7 @@ class rechercheBtAvecPFParCodeproduitEtCodepostalEtDateResponse
 
     /**
      * @param bureauDeTabacAvecPF[] $return
-     * @return \Chonopost\PointRelais\rechercheBtAvecPFParCodeproduitEtCodepostalEtDateResponse
+     * @return \Chronopost\PointRelais\rechercheBtAvecPFParCodeproduitEtCodepostalEtDateResponse
      */
     public function setReturn(array $return = null)
     {

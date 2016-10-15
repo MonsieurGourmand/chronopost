@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class appointmentValue
 {
@@ -44,7 +44,7 @@ class appointmentValue
 
     /**
      * @param \DateTime $timeSlotEndDate
-     * @return \Chonopost\Shipping\appointmentValue
+     * @return \Chronopost\Shipping\appointmentValue
      */
     public function setTimeSlotEndDate(\DateTime $timeSlotEndDate = null)
     {
@@ -74,7 +74,7 @@ class appointmentValue
 
     /**
      * @param \DateTime $timeSlotStartDate
-     * @return \Chonopost\Shipping\appointmentValue
+     * @return \Chronopost\Shipping\appointmentValue
      */
     public function setTimeSlotStartDate(\DateTime $timeSlotStartDate = null)
     {
@@ -96,7 +96,7 @@ class appointmentValue
 
     /**
      * @param string $timeSlotTariffLevel
-     * @return \Chonopost\Shipping\appointmentValue
+     * @return \Chronopost\Shipping\appointmentValue
      */
     public function setTimeSlotTariffLevel($timeSlotTariffLevel)
     {

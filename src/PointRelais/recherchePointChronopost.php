@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class recherchePointChronopost
 {
@@ -91,7 +91,7 @@ class recherchePointChronopost
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setAccountNumber($accountNumber)
     {
@@ -109,7 +109,7 @@ class recherchePointChronopost
 
     /**
      * @param string $password
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setPassword($password)
     {
@@ -127,7 +127,7 @@ class recherchePointChronopost
 
     /**
      * @param string $address
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setAddress($address)
     {
@@ -145,7 +145,7 @@ class recherchePointChronopost
 
     /**
      * @param string $zipCode
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setZipCode($zipCode)
     {
@@ -163,7 +163,7 @@ class recherchePointChronopost
 
     /**
      * @param string $city
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setCity($city)
     {
@@ -181,7 +181,7 @@ class recherchePointChronopost
 
     /**
      * @param string $countryCode
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setCountryCode($countryCode)
     {
@@ -199,7 +199,7 @@ class recherchePointChronopost
 
     /**
      * @param string $type
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setType($type)
     {
@@ -217,7 +217,7 @@ class recherchePointChronopost
 
     /**
      * @param string $productCode
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setProductCode($productCode)
     {
@@ -235,7 +235,7 @@ class recherchePointChronopost
 
     /**
      * @param string $service
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setService($service)
     {
@@ -253,7 +253,7 @@ class recherchePointChronopost
 
     /**
      * @param string $weight
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setWeight($weight)
     {
@@ -271,7 +271,7 @@ class recherchePointChronopost
 
     /**
      * @param string $shippingDate
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setShippingDate($shippingDate)
     {
@@ -289,7 +289,7 @@ class recherchePointChronopost
 
     /**
      * @param string $maxPointChronopost
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setMaxPointChronopost($maxPointChronopost)
     {
@@ -307,7 +307,7 @@ class recherchePointChronopost
 
     /**
      * @param string $maxDistanceSearch
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setMaxDistanceSearch($maxDistanceSearch)
     {
@@ -325,7 +325,7 @@ class recherchePointChronopost
 
     /**
      * @param string $holidayTolerant
-     * @return \Chonopost\PointRelais\recherchePointChronopost
+     * @return \Chronopost\PointRelais\recherchePointChronopost
      */
     public function setHolidayTolerant($holidayTolerant)
     {

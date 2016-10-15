@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class getShippingInformation
 {
@@ -46,7 +46,7 @@ class getShippingInformation
 
     /**
      * @param headerValue $headerValue
-     * @return \Chonopost\Shipping\getShippingInformation
+     * @return \Chronopost\Shipping\getShippingInformation
      */
     public function setHeaderValue($headerValue)
     {
@@ -64,7 +64,7 @@ class getShippingInformation
 
     /**
      * @param shipperValue $shipperValue
-     * @return \Chonopost\Shipping\getShippingInformation
+     * @return \Chronopost\Shipping\getShippingInformation
      */
     public function setShipperValue($shipperValue)
     {
@@ -82,7 +82,7 @@ class getShippingInformation
 
     /**
      * @param recipientValue $recipientValue
-     * @return \Chonopost\Shipping\getShippingInformation
+     * @return \Chronopost\Shipping\getShippingInformation
      */
     public function setRecipientValue($recipientValue)
     {
@@ -100,7 +100,7 @@ class getShippingInformation
 
     /**
      * @param skybillValueBase $skybillValueBase
-     * @return \Chonopost\Shipping\getShippingInformation
+     * @return \Chronopost\Shipping\getShippingInformation
      */
     public function setSkybillValueBase($skybillValueBase)
     {
@@ -118,7 +118,7 @@ class getShippingInformation
 
     /**
      * @param string $password
-     * @return \Chonopost\Shipping\getShippingInformation
+     * @return \Chronopost\Shipping\getShippingInformation
      */
     public function setPassword($password)
     {

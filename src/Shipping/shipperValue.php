@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shipperValue
 {
@@ -93,7 +93,7 @@ class shipperValue
 
     /**
      * @param string $shipperAdress1
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperAdress1($shipperAdress1)
     {
@@ -111,7 +111,7 @@ class shipperValue
 
     /**
      * @param string $shipperAdress2
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperAdress2($shipperAdress2)
     {
@@ -129,7 +129,7 @@ class shipperValue
 
     /**
      * @param string $shipperCity
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperCity($shipperCity)
     {
@@ -147,7 +147,7 @@ class shipperValue
 
     /**
      * @param string $shipperCivility
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperCivility($shipperCivility)
     {
@@ -165,7 +165,7 @@ class shipperValue
 
     /**
      * @param string $shipperContactName
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperContactName($shipperContactName)
     {
@@ -183,7 +183,7 @@ class shipperValue
 
     /**
      * @param string $shipperCountry
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperCountry($shipperCountry)
     {
@@ -201,7 +201,7 @@ class shipperValue
 
     /**
      * @param string $shipperCountryName
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperCountryName($shipperCountryName)
     {
@@ -219,7 +219,7 @@ class shipperValue
 
     /**
      * @param string $shipperEmail
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperEmail($shipperEmail)
     {
@@ -237,7 +237,7 @@ class shipperValue
 
     /**
      * @param string $shipperMobilePhone
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperMobilePhone($shipperMobilePhone)
     {
@@ -255,7 +255,7 @@ class shipperValue
 
     /**
      * @param string $shipperName
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperName($shipperName)
     {
@@ -273,7 +273,7 @@ class shipperValue
 
     /**
      * @param string $shipperName2
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperName2($shipperName2)
     {
@@ -291,7 +291,7 @@ class shipperValue
 
     /**
      * @param string $shipperPhone
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperPhone($shipperPhone)
     {
@@ -309,7 +309,7 @@ class shipperValue
 
     /**
      * @param int $shipperPreAlert
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperPreAlert($shipperPreAlert)
     {
@@ -327,7 +327,7 @@ class shipperValue
 
     /**
      * @param string $shipperZipCode
-     * @return \Chonopost\Shipping\shipperValue
+     * @return \Chronopost\Shipping\shipperValue
      */
     public function setShipperZipCode($shipperZipCode)
     {

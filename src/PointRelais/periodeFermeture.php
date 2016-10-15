@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class periodeFermeture
 {
@@ -46,7 +46,7 @@ class periodeFermeture
 
     /**
      * @param \DateTime $calendarDeDebut
-     * @return \Chonopost\PointRelais\periodeFermeture
+     * @return \Chronopost\PointRelais\periodeFermeture
      */
     public function setCalendarDeDebut(\DateTime $calendarDeDebut = null)
     {
@@ -76,7 +76,7 @@ class periodeFermeture
 
     /**
      * @param \DateTime $calendarDeFin
-     * @return \Chonopost\PointRelais\periodeFermeture
+     * @return \Chronopost\PointRelais\periodeFermeture
      */
     public function setCalendarDeFin(\DateTime $calendarDeFin = null)
     {
@@ -98,7 +98,7 @@ class periodeFermeture
 
     /**
      * @param int $numero
-     * @return \Chonopost\PointRelais\periodeFermeture
+     * @return \Chronopost\PointRelais\periodeFermeture
      */
     public function setNumero($numero)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class productServiceV2 extends productService
 {
@@ -26,7 +26,7 @@ class productServiceV2 extends productService
 
     /**
      * @param string $asCode
-     * @return \Chonopost\Creneau\productServiceV2
+     * @return \Chronopost\Creneau\productServiceV2
      */
     public function setAsCode($asCode)
     {

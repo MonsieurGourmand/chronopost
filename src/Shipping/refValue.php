@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class refValue
 {
@@ -41,7 +41,7 @@ class refValue
 
     /**
      * @param string $customerSkybillNumber
-     * @return \Chonopost\Shipping\refValue
+     * @return \Chronopost\Shipping\refValue
      */
     public function setCustomerSkybillNumber($customerSkybillNumber)
     {
@@ -59,7 +59,7 @@ class refValue
 
     /**
      * @param string $PCardTransactionNumber
-     * @return \Chonopost\Shipping\refValue
+     * @return \Chronopost\Shipping\refValue
      */
     public function setPCardTransactionNumber($PCardTransactionNumber)
     {
@@ -77,7 +77,7 @@ class refValue
 
     /**
      * @param string $recipientRef
-     * @return \Chonopost\Shipping\refValue
+     * @return \Chronopost\Shipping\refValue
      */
     public function setRecipientRef($recipientRef)
     {
@@ -95,7 +95,7 @@ class refValue
 
     /**
      * @param string $shipperRef
-     * @return \Chonopost\Shipping\refValue
+     * @return \Chronopost\Shipping\refValue
      */
     public function setShipperRef($shipperRef)
     {

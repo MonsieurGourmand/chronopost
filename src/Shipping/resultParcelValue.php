@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class resultParcelValue
 {
@@ -86,7 +86,7 @@ class resultParcelValue
 
     /**
      * @param string $codeDepot
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setCodeDepot($codeDepot)
     {
@@ -104,7 +104,7 @@ class resultParcelValue
 
     /**
      * @param string $codeService
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setCodeService($codeService)
     {
@@ -122,7 +122,7 @@ class resultParcelValue
 
     /**
      * @param string $DSort
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setDSort($DSort)
     {
@@ -140,7 +140,7 @@ class resultParcelValue
 
     /**
      * @param string $destinationDepot
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setDestinationDepot($destinationDepot)
     {
@@ -158,7 +158,7 @@ class resultParcelValue
 
     /**
      * @param string $geoPostCodeBarre
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setGeoPostCodeBarre($geoPostCodeBarre)
     {
@@ -176,7 +176,7 @@ class resultParcelValue
 
     /**
      * @param string $geoPostNumeroColis
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setGeoPostNumeroColis($geoPostNumeroColis)
     {
@@ -194,7 +194,7 @@ class resultParcelValue
 
     /**
      * @param string $groupingPriorityLabel
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setGroupingPriorityLabel($groupingPriorityLabel)
     {
@@ -212,7 +212,7 @@ class resultParcelValue
 
     /**
      * @param string $OSort
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setOSort($OSort)
     {
@@ -230,7 +230,7 @@ class resultParcelValue
 
     /**
      * @param string $reservationNumber
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setReservationNumber($reservationNumber)
     {
@@ -248,7 +248,7 @@ class resultParcelValue
 
     /**
      * @param string $serviceMark
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setServiceMark($serviceMark)
     {
@@ -266,7 +266,7 @@ class resultParcelValue
 
     /**
      * @param string $serviceName
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setServiceName($serviceName)
     {
@@ -284,7 +284,7 @@ class resultParcelValue
 
     /**
      * @param string $signaletiqueProduit
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setSignaletiqueProduit($signaletiqueProduit)
     {
@@ -302,7 +302,7 @@ class resultParcelValue
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Shipping\resultParcelValue
+     * @return \Chronopost\Shipping\resultParcelValue
      */
     public function setSkybillNumber($skybillNumber)
     {

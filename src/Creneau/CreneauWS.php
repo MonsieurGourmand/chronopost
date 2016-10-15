@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class CreneauWS extends \BeSimple\SoapClient\SoapClient
 {
@@ -9,22 +9,22 @@ class CreneauWS extends \BeSimple\SoapClient\SoapClient
      * @var array $classmap The defined classes
      */
     private static $classmap = array (
-      'searchDeliverySlot' => 'Chonopost\\Creneau\\searchDeliverySlot',
-      'searchDeliverySlotResponse' => 'Chonopost\\Creneau\\searchDeliverySlotResponse',
-      'deliverySlotResponse' => 'Chonopost\\Creneau\\deliverySlotResponse',
-      'wsResponse' => 'Chonopost\\Creneau\\wsResponse',
-      'slot' => 'Chonopost\\Creneau\\slot',
-      'confirmDeliverySlotV2' => 'Chonopost\\Creneau\\confirmDeliverySlotV2',
-      'confirmDeliverySlotV2Response' => 'Chonopost\\Creneau\\confirmDeliverySlotV2Response',
-      'serviceResponseV2' => 'Chonopost\\Creneau\\serviceResponseV2',
-      'productServiceV2' => 'Chonopost\\Creneau\\productServiceV2',
-      'productService' => 'Chonopost\\Creneau\\productService',
-      'getAdresseGeocodage' => 'Chonopost\\Creneau\\getAdresseGeocodage',
-      'getAdresseGeocodageResponse' => 'Chonopost\\Creneau\\getAdresseGeocodageResponse',
-      'geocodageResponse' => 'Chonopost\\Creneau\\geocodageResponse',
-      'confirmDeliverySlot' => 'Chonopost\\Creneau\\confirmDeliverySlot',
-      'confirmDeliverySlotResponse' => 'Chonopost\\Creneau\\confirmDeliverySlotResponse',
-      'serviceResponse' => 'Chonopost\\Creneau\\serviceResponse',
+      'searchDeliverySlot' => 'Chronopost\\Creneau\\searchDeliverySlot',
+      'searchDeliverySlotResponse' => 'Chronopost\\Creneau\\searchDeliverySlotResponse',
+      'deliverySlotResponse' => 'Chronopost\\Creneau\\deliverySlotResponse',
+      'wsResponse' => 'Chronopost\\Creneau\\wsResponse',
+      'slot' => 'Chronopost\\Creneau\\slot',
+      'confirmDeliverySlotV2' => 'Chronopost\\Creneau\\confirmDeliverySlotV2',
+      'confirmDeliverySlotV2Response' => 'Chronopost\\Creneau\\confirmDeliverySlotV2Response',
+      'serviceResponseV2' => 'Chronopost\\Creneau\\serviceResponseV2',
+      'productServiceV2' => 'Chronopost\\Creneau\\productServiceV2',
+      'productService' => 'Chronopost\\Creneau\\productService',
+      'getAdresseGeocodage' => 'Chronopost\\Creneau\\getAdresseGeocodage',
+      'getAdresseGeocodageResponse' => 'Chronopost\\Creneau\\getAdresseGeocodageResponse',
+      'geocodageResponse' => 'Chronopost\\Creneau\\geocodageResponse',
+      'confirmDeliverySlot' => 'Chronopost\\Creneau\\confirmDeliverySlot',
+      'confirmDeliverySlotResponse' => 'Chronopost\\Creneau\\confirmDeliverySlotResponse',
+      'serviceResponse' => 'Chronopost\\Creneau\\serviceResponse',
     );
 
     /**

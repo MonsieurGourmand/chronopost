@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class resultGetReservedSkybillWithTypeValue
 {
@@ -43,7 +43,7 @@ class resultGetReservedSkybillWithTypeValue
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Shipping\resultGetReservedSkybillWithTypeValue
+     * @return \Chronopost\Shipping\resultGetReservedSkybillWithTypeValue
      */
     public function setErrorCode($errorCode)
     {
@@ -61,7 +61,7 @@ class resultGetReservedSkybillWithTypeValue
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Shipping\resultGetReservedSkybillWithTypeValue
+     * @return \Chronopost\Shipping\resultGetReservedSkybillWithTypeValue
      */
     public function setErrorMessage($errorMessage)
     {
@@ -79,7 +79,7 @@ class resultGetReservedSkybillWithTypeValue
 
     /**
      * @param string $skybill
-     * @return \Chonopost\Shipping\resultGetReservedSkybillWithTypeValue
+     * @return \Chronopost\Shipping\resultGetReservedSkybillWithTypeValue
      */
     public function setSkybill($skybill)
     {
@@ -97,7 +97,7 @@ class resultGetReservedSkybillWithTypeValue
 
     /**
      * @param string $type
-     * @return \Chonopost\Shipping\resultGetReservedSkybillWithTypeValue
+     * @return \Chronopost\Shipping\resultGetReservedSkybillWithTypeValue
      */
     public function setType($type)
     {

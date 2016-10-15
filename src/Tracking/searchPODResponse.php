@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class searchPODResponse
 {
@@ -26,7 +26,7 @@ class searchPODResponse
 
     /**
      * @param resultSearchPOD $return
-     * @return \Chonopost\Tracking\searchPODResponse
+     * @return \Chronopost\Tracking\searchPODResponse
      */
     public function setReturn($return)
     {

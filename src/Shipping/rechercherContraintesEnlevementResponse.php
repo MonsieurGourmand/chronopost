@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class rechercherContraintesEnlevementResponse
 {
@@ -26,7 +26,7 @@ class rechercherContraintesEnlevementResponse
 
     /**
      * @param esdResultContraintesAgenceValue $return
-     * @return \Chonopost\Shipping\rechercherContraintesEnlevementResponse
+     * @return \Chronopost\Shipping\rechercherContraintesEnlevementResponse
      */
     public function setReturn($return)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class trackWithSenderRef
 {
@@ -41,7 +41,7 @@ class trackWithSenderRef
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\Tracking\trackWithSenderRef
+     * @return \Chronopost\Tracking\trackWithSenderRef
      */
     public function setAccountNumber($accountNumber)
     {
@@ -59,7 +59,7 @@ class trackWithSenderRef
 
     /**
      * @param string $password
-     * @return \Chonopost\Tracking\trackWithSenderRef
+     * @return \Chronopost\Tracking\trackWithSenderRef
      */
     public function setPassword($password)
     {
@@ -77,7 +77,7 @@ class trackWithSenderRef
 
     /**
      * @param string $language
-     * @return \Chonopost\Tracking\trackWithSenderRef
+     * @return \Chronopost\Tracking\trackWithSenderRef
      */
     public function setLanguage($language)
     {
@@ -95,7 +95,7 @@ class trackWithSenderRef
 
     /**
      * @param string $sendersRef
-     * @return \Chonopost\Tracking\trackWithSenderRef
+     * @return \Chronopost\Tracking\trackWithSenderRef
      */
     public function setSendersRef($sendersRef)
     {

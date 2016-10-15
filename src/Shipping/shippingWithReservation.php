@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class shippingWithReservation
 {
@@ -71,7 +71,7 @@ class shippingWithReservation
 
     /**
      * @param esdValue $esdValue
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setEsdValue($esdValue)
     {
@@ -89,7 +89,7 @@ class shippingWithReservation
 
     /**
      * @param headerValue $headerValue
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setHeaderValue($headerValue)
     {
@@ -107,7 +107,7 @@ class shippingWithReservation
 
     /**
      * @param shipperValue $shipperValue
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setShipperValue($shipperValue)
     {
@@ -125,7 +125,7 @@ class shippingWithReservation
 
     /**
      * @param customerValue $customerValue
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setCustomerValue($customerValue)
     {
@@ -143,7 +143,7 @@ class shippingWithReservation
 
     /**
      * @param recipientValue $recipientValue
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setRecipientValue($recipientValue)
     {
@@ -161,7 +161,7 @@ class shippingWithReservation
 
     /**
      * @param refValue $refValue
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setRefValue($refValue)
     {
@@ -179,7 +179,7 @@ class shippingWithReservation
 
     /**
      * @param skybillValue $skybillValue
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setSkybillValue($skybillValue)
     {
@@ -197,7 +197,7 @@ class shippingWithReservation
 
     /**
      * @param skybillParamsValue $skybillParamsValue
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setSkybillParamsValue($skybillParamsValue)
     {
@@ -215,7 +215,7 @@ class shippingWithReservation
 
     /**
      * @param string $password
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setPassword($password)
     {
@@ -233,7 +233,7 @@ class shippingWithReservation
 
     /**
      * @param string $modeRetour
-     * @return \Chonopost\Shipping\shippingWithReservation
+     * @return \Chronopost\Shipping\shippingWithReservation
      */
     public function setModeRetour($modeRetour)
     {

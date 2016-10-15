@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class resultCancelSkybill
 {
@@ -40,7 +40,7 @@ class resultCancelSkybill
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Tracking\resultCancelSkybill
+     * @return \Chronopost\Tracking\resultCancelSkybill
      */
     public function setErrorCode($errorCode)
     {
@@ -58,7 +58,7 @@ class resultCancelSkybill
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Tracking\resultCancelSkybill
+     * @return \Chronopost\Tracking\resultCancelSkybill
      */
     public function setErrorMessage($errorMessage)
     {
@@ -76,7 +76,7 @@ class resultCancelSkybill
 
     /**
      * @param int $statusCode
-     * @return \Chonopost\Tracking\resultCancelSkybill
+     * @return \Chronopost\Tracking\resultCancelSkybill
      */
     public function setStatusCode($statusCode)
     {

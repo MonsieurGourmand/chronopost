@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class resultFaisabiliteESD
 {
@@ -33,7 +33,7 @@ class resultFaisabiliteESD
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Shipping\resultFaisabiliteESD
+     * @return \Chronopost\Shipping\resultFaisabiliteESD
      */
     public function setErrorCode($errorCode)
     {
@@ -51,7 +51,7 @@ class resultFaisabiliteESD
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Shipping\resultFaisabiliteESD
+     * @return \Chronopost\Shipping\resultFaisabiliteESD
      */
     public function setErrorMessage($errorMessage)
     {

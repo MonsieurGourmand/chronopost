@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Quickcost;
+namespace Chronopost\Quickcost;
 
 class assurance
 {
@@ -35,7 +35,7 @@ class assurance
 
     /**
      * @param float $plafond
-     * @return \Chonopost\Quickcost\assurance
+     * @return \Chronopost\Quickcost\assurance
      */
     public function setPlafond($plafond)
     {
@@ -53,7 +53,7 @@ class assurance
 
     /**
      * @param float $taux
-     * @return \Chonopost\Quickcost\assurance
+     * @return \Chronopost\Quickcost\assurance
      */
     public function setTaux($taux)
     {

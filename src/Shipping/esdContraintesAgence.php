@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class esdContraintesAgence
 {
@@ -83,7 +83,7 @@ class esdContraintesAgence
 
     /**
      * @param int $battement
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setBattement($battement)
     {
@@ -101,7 +101,7 @@ class esdContraintesAgence
 
     /**
      * @param string $battementEnHeure
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setBattementEnHeure($battementEnHeure)
     {
@@ -119,7 +119,7 @@ class esdContraintesAgence
 
     /**
      * @param string $codeAgence
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setCodeAgence($codeAgence)
     {
@@ -137,7 +137,7 @@ class esdContraintesAgence
 
     /**
      * @param string $codePays
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setCodePays($codePays)
     {
@@ -155,7 +155,7 @@ class esdContraintesAgence
 
     /**
      * @param string $codePostal
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setCodePostal($codePostal)
     {
@@ -173,7 +173,7 @@ class esdContraintesAgence
 
     /**
      * @param string $hla
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setHla($hla)
     {
@@ -191,7 +191,7 @@ class esdContraintesAgence
 
     /**
      * @param string $hlp
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setHlp($hlp)
     {
@@ -209,7 +209,7 @@ class esdContraintesAgence
 
     /**
      * @param string $hppt
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setHppt($hppt)
     {
@@ -227,7 +227,7 @@ class esdContraintesAgence
 
     /**
      * @param string $nomAgence
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setNomAgence($nomAgence)
     {
@@ -245,7 +245,7 @@ class esdContraintesAgence
 
     /**
      * @param string $raisonNonActivite
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setRaisonNonActivite($raisonNonActivite)
     {
@@ -263,7 +263,7 @@ class esdContraintesAgence
 
     /**
      * @param string $ville
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setVille($ville)
     {
@@ -281,7 +281,7 @@ class esdContraintesAgence
 
     /**
      * @param boolean $zoneA
-     * @return \Chonopost\Shipping\esdContraintesAgence
+     * @return \Chronopost\Shipping\esdContraintesAgence
      */
     public function setZoneA($zoneA)
     {

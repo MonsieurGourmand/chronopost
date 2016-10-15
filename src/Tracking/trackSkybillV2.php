@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class trackSkybillV2
 {
@@ -31,7 +31,7 @@ class trackSkybillV2
 
     /**
      * @param string $language
-     * @return \Chonopost\Tracking\trackSkybillV2
+     * @return \Chronopost\Tracking\trackSkybillV2
      */
     public function setLanguage($language)
     {
@@ -49,7 +49,7 @@ class trackSkybillV2
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Tracking\trackSkybillV2
+     * @return \Chronopost\Tracking\trackSkybillV2
      */
     public function setSkybillNumber($skybillNumber)
     {

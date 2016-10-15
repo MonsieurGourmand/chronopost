@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class faisabiliteESDResponse
 {
@@ -26,7 +26,7 @@ class faisabiliteESDResponse
 
     /**
      * @param resultFaisabiliteESD $return
-     * @return \Chonopost\Shipping\faisabiliteESDResponse
+     * @return \Chronopost\Shipping\faisabiliteESDResponse
      */
     public function setReturn($return)
     {

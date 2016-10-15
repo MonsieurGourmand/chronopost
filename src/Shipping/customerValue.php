@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class customerValue
 {
@@ -98,7 +98,7 @@ class customerValue
 
     /**
      * @param string $customerAdress1
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerAdress1($customerAdress1)
     {
@@ -116,7 +116,7 @@ class customerValue
 
     /**
      * @param string $customerAdress2
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerAdress2($customerAdress2)
     {
@@ -134,7 +134,7 @@ class customerValue
 
     /**
      * @param string $customerCity
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerCity($customerCity)
     {
@@ -152,7 +152,7 @@ class customerValue
 
     /**
      * @param string $customerCivility
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerCivility($customerCivility)
     {
@@ -170,7 +170,7 @@ class customerValue
 
     /**
      * @param string $customerContactName
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerContactName($customerContactName)
     {
@@ -188,7 +188,7 @@ class customerValue
 
     /**
      * @param string $customerCountry
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerCountry($customerCountry)
     {
@@ -206,7 +206,7 @@ class customerValue
 
     /**
      * @param string $customerCountryName
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerCountryName($customerCountryName)
     {
@@ -224,7 +224,7 @@ class customerValue
 
     /**
      * @param string $customerEmail
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerEmail($customerEmail)
     {
@@ -242,7 +242,7 @@ class customerValue
 
     /**
      * @param string $customerMobilePhone
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerMobilePhone($customerMobilePhone)
     {
@@ -260,7 +260,7 @@ class customerValue
 
     /**
      * @param string $customerName
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerName($customerName)
     {
@@ -278,7 +278,7 @@ class customerValue
 
     /**
      * @param string $customerName2
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerName2($customerName2)
     {
@@ -296,7 +296,7 @@ class customerValue
 
     /**
      * @param string $customerPhone
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerPhone($customerPhone)
     {
@@ -314,7 +314,7 @@ class customerValue
 
     /**
      * @param int $customerPreAlert
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerPreAlert($customerPreAlert)
     {
@@ -332,7 +332,7 @@ class customerValue
 
     /**
      * @param string $customerZipCode
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setCustomerZipCode($customerZipCode)
     {
@@ -350,7 +350,7 @@ class customerValue
 
     /**
      * @param string $printAsSender
-     * @return \Chonopost\Shipping\customerValue
+     * @return \Chronopost\Shipping\customerValue
      */
     public function setPrintAsSender($printAsSender)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class recipientValue
 {
@@ -88,7 +88,7 @@ class recipientValue
 
     /**
      * @param string $recipientAdress1
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientAdress1($recipientAdress1)
     {
@@ -106,7 +106,7 @@ class recipientValue
 
     /**
      * @param string $recipientAdress2
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientAdress2($recipientAdress2)
     {
@@ -124,7 +124,7 @@ class recipientValue
 
     /**
      * @param string $recipientCity
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientCity($recipientCity)
     {
@@ -142,7 +142,7 @@ class recipientValue
 
     /**
      * @param string $recipientContactName
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientContactName($recipientContactName)
     {
@@ -160,7 +160,7 @@ class recipientValue
 
     /**
      * @param string $recipientCountry
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientCountry($recipientCountry)
     {
@@ -178,7 +178,7 @@ class recipientValue
 
     /**
      * @param string $recipientCountryName
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientCountryName($recipientCountryName)
     {
@@ -196,7 +196,7 @@ class recipientValue
 
     /**
      * @param string $recipientEmail
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientEmail($recipientEmail)
     {
@@ -214,7 +214,7 @@ class recipientValue
 
     /**
      * @param string $recipientMobilePhone
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientMobilePhone($recipientMobilePhone)
     {
@@ -232,7 +232,7 @@ class recipientValue
 
     /**
      * @param string $recipientName
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientName($recipientName)
     {
@@ -250,7 +250,7 @@ class recipientValue
 
     /**
      * @param string $recipientName2
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientName2($recipientName2)
     {
@@ -268,7 +268,7 @@ class recipientValue
 
     /**
      * @param string $recipientPhone
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientPhone($recipientPhone)
     {
@@ -286,7 +286,7 @@ class recipientValue
 
     /**
      * @param int $recipientPreAlert
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientPreAlert($recipientPreAlert)
     {
@@ -304,7 +304,7 @@ class recipientValue
 
     /**
      * @param string $recipientZipCode
-     * @return \Chonopost\Shipping\recipientValue
+     * @return \Chronopost\Shipping\recipientValue
      */
     public function setRecipientZipCode($recipientZipCode)
     {

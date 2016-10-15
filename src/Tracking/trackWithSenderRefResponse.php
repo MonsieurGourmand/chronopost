@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class trackWithSenderRefResponse
 {
@@ -26,7 +26,7 @@ class trackWithSenderRefResponse
 
     /**
      * @param resultTrackWithSenderRef $return
-     * @return \Chonopost\Tracking\trackWithSenderRefResponse
+     * @return \Chronopost\Tracking\trackWithSenderRefResponse
      */
     public function setReturn($return)
     {

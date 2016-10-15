@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class listEventInfoComps
 {
@@ -31,7 +31,7 @@ class listEventInfoComps
 
     /**
      * @param eventInfoComp[] $events
-     * @return \Chonopost\Tracking\listEventInfoComps
+     * @return \Chronopost\Tracking\listEventInfoComps
      */
     public function setEvents(array $events = null)
     {
@@ -49,7 +49,7 @@ class listEventInfoComps
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Tracking\listEventInfoComps
+     * @return \Chronopost\Tracking\listEventInfoComps
      */
     public function setSkybillNumber($skybillNumber)
     {

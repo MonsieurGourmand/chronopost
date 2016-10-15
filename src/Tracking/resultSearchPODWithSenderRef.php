@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class resultSearchPODWithSenderRef
 {
@@ -38,7 +38,7 @@ class resultSearchPODWithSenderRef
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Tracking\resultSearchPODWithSenderRef
+     * @return \Chronopost\Tracking\resultSearchPODWithSenderRef
      */
     public function setErrorCode($errorCode)
     {
@@ -56,7 +56,7 @@ class resultSearchPODWithSenderRef
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Tracking\resultSearchPODWithSenderRef
+     * @return \Chronopost\Tracking\resultSearchPODWithSenderRef
      */
     public function setErrorMessage($errorMessage)
     {
@@ -74,7 +74,7 @@ class resultSearchPODWithSenderRef
 
     /**
      * @param parcelPOD[] $listParcelPOD
-     * @return \Chonopost\Tracking\resultSearchPODWithSenderRef
+     * @return \Chronopost\Tracking\resultSearchPODWithSenderRef
      */
     public function setListParcelPOD(array $listParcelPOD = null)
     {

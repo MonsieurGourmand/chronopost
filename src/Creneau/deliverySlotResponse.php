@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Creneau;
+namespace Chronopost\Creneau;
 
 class deliverySlotResponse extends wsResponse
 {
@@ -38,7 +38,7 @@ class deliverySlotResponse extends wsResponse
 
     /**
      * @param string $meshCode
-     * @return \Chonopost\Creneau\deliverySlotResponse
+     * @return \Chronopost\Creneau\deliverySlotResponse
      */
     public function setMeshCode($meshCode)
     {
@@ -56,7 +56,7 @@ class deliverySlotResponse extends wsResponse
 
     /**
      * @param slot[] $slotList
-     * @return \Chonopost\Creneau\deliverySlotResponse
+     * @return \Chronopost\Creneau\deliverySlotResponse
      */
     public function setSlotList(array $slotList = null)
     {
@@ -74,7 +74,7 @@ class deliverySlotResponse extends wsResponse
 
     /**
      * @param string $transactionID
-     * @return \Chonopost\Creneau\deliverySlotResponse
+     * @return \Chronopost\Creneau\deliverySlotResponse
      */
     public function setTransactionID($transactionID)
     {

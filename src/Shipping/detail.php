@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class detail
 {
@@ -38,7 +38,7 @@ class detail
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Shipping\detail
+     * @return \Chronopost\Shipping\detail
      */
     public function setErrorCode($errorCode)
     {
@@ -56,7 +56,7 @@ class detail
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Shipping\detail
+     * @return \Chronopost\Shipping\detail
      */
     public function setErrorMessage($errorMessage)
     {
@@ -74,7 +74,7 @@ class detail
 
     /**
      * @param string $mode
-     * @return \Chonopost\Shipping\detail
+     * @return \Chronopost\Shipping\detail
      */
     public function setMode($mode)
     {

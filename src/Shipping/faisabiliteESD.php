@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class faisabiliteESD
 {
@@ -36,7 +36,7 @@ class faisabiliteESD
 
     /**
      * @param shipperValue $shipperValue
-     * @return \Chonopost\Shipping\faisabiliteESD
+     * @return \Chronopost\Shipping\faisabiliteESD
      */
     public function setShipperValue($shipperValue)
     {
@@ -62,7 +62,7 @@ class faisabiliteESD
 
     /**
      * @param \DateTime $retrievalDateTime
-     * @return \Chonopost\Shipping\faisabiliteESD
+     * @return \Chronopost\Shipping\faisabiliteESD
      */
     public function setRetrievalDateTime(\DateTime $retrievalDateTime = null)
     {
@@ -92,7 +92,7 @@ class faisabiliteESD
 
     /**
      * @param \DateTime $closingDateTime
-     * @return \Chonopost\Shipping\faisabiliteESD
+     * @return \Chronopost\Shipping\faisabiliteESD
      */
     public function setClosingDateTime(\DateTime $closingDateTime = null)
     {

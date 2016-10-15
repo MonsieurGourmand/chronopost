@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class recherchePointChronopostParCoordonneesGeographiques
 {
@@ -81,7 +81,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $accountNumber
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setAccountNumber($accountNumber)
     {
@@ -99,7 +99,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $password
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setPassword($password)
     {
@@ -117,7 +117,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $coordGeoLatitude
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setCoordGeoLatitude($coordGeoLatitude)
     {
@@ -135,7 +135,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $coordGeoLongitude
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setCoordGeoLongitude($coordGeoLongitude)
     {
@@ -153,7 +153,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $type
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setType($type)
     {
@@ -171,7 +171,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $productCode
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setProductCode($productCode)
     {
@@ -189,7 +189,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $service
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setService($service)
     {
@@ -207,7 +207,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $weight
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setWeight($weight)
     {
@@ -225,7 +225,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $shippingDate
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setShippingDate($shippingDate)
     {
@@ -243,7 +243,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $maxPointChronopost
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setMaxPointChronopost($maxPointChronopost)
     {
@@ -261,7 +261,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $maxDistanceSearch
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setMaxDistanceSearch($maxDistanceSearch)
     {
@@ -279,7 +279,7 @@ class recherchePointChronopostParCoordonneesGeographiques
 
     /**
      * @param string $holidayTolerant
-     * @return \Chonopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
+     * @return \Chronopost\PointRelais\recherchePointChronopostParCoordonneesGeographiques
      */
     public function setHolidayTolerant($holidayTolerant)
     {

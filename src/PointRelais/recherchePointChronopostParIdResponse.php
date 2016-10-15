@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\PointRelais;
+namespace Chronopost\PointRelais;
 
 class recherchePointChronopostParIdResponse
 {
@@ -26,7 +26,7 @@ class recherchePointChronopostParIdResponse
 
     /**
      * @param pointChronopost[] $return
-     * @return \Chonopost\PointRelais\recherchePointChronopostParIdResponse
+     * @return \Chronopost\PointRelais\recherchePointChronopostParIdResponse
      */
     public function setReturn(array $return = null)
     {

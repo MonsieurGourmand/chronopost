@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Shipping;
+namespace Chronopost\Shipping;
 
 class resultReservationExpeditionValue
 {
@@ -113,7 +113,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $codeDepot
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setCodeDepot($codeDepot)
     {
@@ -131,7 +131,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $codeService
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setCodeService($codeService)
     {
@@ -149,7 +149,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $DSort
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setDSort($DSort)
     {
@@ -167,7 +167,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $destinationDepot
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setDestinationDepot($destinationDepot)
     {
@@ -185,7 +185,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $ESDFullNumber
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setESDFullNumber($ESDFullNumber)
     {
@@ -203,7 +203,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $ESDNumber
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setESDNumber($ESDNumber)
     {
@@ -221,7 +221,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param int $errorCode
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setErrorCode($errorCode)
     {
@@ -239,7 +239,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $errorMessage
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setErrorMessage($errorMessage)
     {
@@ -257,7 +257,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $geoPostCodeBarre
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setGeoPostCodeBarre($geoPostCodeBarre)
     {
@@ -275,7 +275,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $geoPostNumeroColis
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setGeoPostNumeroColis($geoPostNumeroColis)
     {
@@ -293,7 +293,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $groupingPriorityLabel
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setGroupingPriorityLabel($groupingPriorityLabel)
     {
@@ -311,7 +311,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $OSort
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setOSort($OSort)
     {
@@ -337,7 +337,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param \DateTime $pickupDate
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setPickupDate(\DateTime $pickupDate = null)
     {
@@ -359,7 +359,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $reservationNumber
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setReservationNumber($reservationNumber)
     {
@@ -377,7 +377,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $serviceMark
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setServiceMark($serviceMark)
     {
@@ -395,7 +395,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $serviceName
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setServiceName($serviceName)
     {
@@ -413,7 +413,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $signaletiqueProduit
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setSignaletiqueProduit($signaletiqueProduit)
     {
@@ -431,7 +431,7 @@ class resultReservationExpeditionValue
 
     /**
      * @param string $skybillNumber
-     * @return \Chonopost\Shipping\resultReservationExpeditionValue
+     * @return \Chronopost\Shipping\resultReservationExpeditionValue
      */
     public function setSkybillNumber($skybillNumber)
     {

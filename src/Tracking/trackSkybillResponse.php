@@ -1,6 +1,6 @@
 <?php
 
-namespace Chonopost\Tracking;
+namespace Chronopost\Tracking;
 
 class trackSkybillResponse
 {
@@ -26,7 +26,7 @@ class trackSkybillResponse
 
     /**
      * @param resultTrackSkybill $return
-     * @return \Chonopost\Tracking\trackSkybillResponse
+     * @return \Chronopost\Tracking\trackSkybillResponse
      */
     public function setReturn($return)
     {
