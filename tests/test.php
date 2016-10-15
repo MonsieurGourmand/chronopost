@@ -16,8 +16,8 @@ require_once dirname(__FILE__) . '/../src/ChronopostAutoload.php';
  * Chronopost Informations
  */
 define('CHRONOPOST_WSDL_URL','https://www.chronopost.fr/shipping-cxf/ShippingServiceWS?wsdl');
-define('CHRONOPOST_USER_LOGIN','');
-define('CHRONOPOST_USER_PASSWORD','');
+define('CHRONOPOST_USER_LOGIN','10564650');
+define('CHRONOPOST_USER_PASSWORD','chronofood');
 /**
  * Wsdl instanciation infos
  */
@@ -35,7 +35,6 @@ if(CHRONOPOST_USER_PASSWORD !== '')
  * Examples
  */
 $chronopostServiceShipping = new ChronopostServiceShipping($wsdl);
-var_dump($chronopostServiceShipping);exit;
 // sample call for ChronopostServiceShipping::shipping()
 if($chronopostServiceShipping->shipping(new ChronopostStructShipping(/*** update parameters list ***/)))
 	print_r($chronopostServiceShipping->getResult());
