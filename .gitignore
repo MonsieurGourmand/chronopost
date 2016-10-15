@@ -10,4 +10,4 @@
 
 #libraries
 vendor/
-wdsl2php
+wsdl2php/
