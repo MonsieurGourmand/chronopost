@@ -2,7 +2,7 @@
 
 namespace Chonopost\PointRelais;
 
-class PointRelaisServiceWSService extends \SoapClient
+class PointRelaisServiceWSService extends \BeSimple\SoapClient\SoapClient
 {
 
     /**
@@ -62,6 +62,10 @@ class PointRelaisServiceWSService extends \SoapClient
         }
       }
       $options = array_merge(array (
+      'authentication' => 0,
+      'login' => '10564650',
+      'password' => 'chronofood',
+      'connection_timeout' => 60,
       'features' => 1,
     ), $options);
       if (!$wsdl) {

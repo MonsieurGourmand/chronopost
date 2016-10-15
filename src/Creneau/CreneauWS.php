@@ -2,7 +2,7 @@
 
 namespace Chonopost\Creneau;
 
-class CreneauWS extends \SoapClient
+class CreneauWS extends \BeSimple\SoapClient\SoapClient
 {
 
     /**
@@ -39,6 +39,10 @@ class CreneauWS extends \SoapClient
         }
       }
       $options = array_merge(array (
+      'authentication' => 0,
+      'login' => '10564650',
+      'password' => 'chronofood',
+      'connection_timeout' => 60,
       'features' => 1,
     ), $options);
       if (!$wsdl) {

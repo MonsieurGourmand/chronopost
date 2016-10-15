@@ -2,7 +2,7 @@
 
 namespace Chonopost\Tracking;
 
-class TrackingServiceWSService extends \SoapClient
+class TrackingServiceWSService extends \BeSimple\SoapClient\SoapClient
 {
 
     /**
@@ -51,6 +51,10 @@ class TrackingServiceWSService extends \SoapClient
         }
       }
       $options = array_merge(array (
+      'authentication' => 0,
+      'login' => '10564650',
+      'password' => 'chronofood',
+      'connection_timeout' => 60,
       'features' => 1,
     ), $options);
       if (!$wsdl) {

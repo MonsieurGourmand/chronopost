@@ -2,7 +2,7 @@
 
 namespace Chonopost\Quickcost;
 
-class QuickcostServiceWSService extends \SoapClient
+class QuickcostServiceWSService extends \BeSimple\SoapClient\SoapClient
 {
 
     /**
@@ -36,6 +36,10 @@ class QuickcostServiceWSService extends \SoapClient
         }
       }
       $options = array_merge(array (
+      'authentication' => 0,
+      'login' => '10564650',
+      'password' => 'chronofood',
+      'connection_timeout' => 60,
       'features' => 1,
     ), $options);
       if (!$wsdl) {
