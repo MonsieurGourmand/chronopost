@@ -1,6 +1,7 @@
 <?php
 namespace Chronopost\Route;
 
+use Chronopost\Request\Slot\Confirm;
 use \Chronopost\Request\Slot\Search;
 
 class Slot
@@ -9,6 +10,7 @@ class Slot
     protected $targetNamespace = "http://cxf.soap.ws.creneau.chronopost.fr/";
     /** Services */
     protected $searchDeliverySlot = "searchDeliverySlot";
+    protected $confirmDeliverySlot = "confirmDeliverySlot";
 
     /** @var string */
     protected $entity;
@@ -16,11 +18,15 @@ class Slot
     public function __construct(\Chronopost\Chronopost $master)
     {
         $this->master = $master;
-        $this->entity = \Chronopost\Entity\Slot::class;
     }
 
     public function search(Search $search)
     {
         return $this->master->request($this->wsdl,$this->targetNamespace,$this->searchDeliverySlot,$search);
+    }
+
+    public function confirm(Confirm $confirm)
+    {
+        return $this->master->request($this->wsdl,$this->targetNamespace,$this->confirmDeliverySlot,$confirm);
     }
 }

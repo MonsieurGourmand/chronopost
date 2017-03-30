@@ -14,18 +14,19 @@ class Chronopost {
         $this->parser = new Parser();
 
         $this->slot = new \Chronopost\Route\Slot($this);
+        $this->shipping = new \Chronopost\Route\Shipping($this);
     }
 
     public function request($wsdl,$targetNamespace,$service,$obj)
     {
-        $client = new \SoapClient($wsdl);
+        $client = new \SoapClient($wsdl,array("trace" => 1));
         $headers[]= new \SoapHeader($targetNamespace, 'accountNumber', $this->accountNumber);
         $headers[]= new \SoapHeader($targetNamespace, 'password', $this->pass);
         $client->__setSoapHeaders($headers);
 
         $response = $client->$service($obj);
-        if($response->return->code != 0)
-            throw new \Error($response->return->message);
+        dump($client->__getLastRequest());
+
         return $response->return;
     }
 
