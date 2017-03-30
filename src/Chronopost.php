@@ -25,7 +25,6 @@ class Chronopost {
         $client->__setSoapHeaders($headers);
 
         $response = $client->$service($obj);
-        dump($client->__getLastRequest());
 
         return $response->return;
     }
