@@ -11,10 +11,9 @@ class Chronopost {
         $this->accountNumber = $accountNumber;
         $this->pass = $pass;
 
-        $this->parser = new Parser();
-
         $this->slot = new \Chronopost\Route\Slot($this);
         $this->shipping = new \Chronopost\Route\Shipping($this);
+        $this->tracking = new \Chronopost\Route\Tracking($this);
     }
 
     public function request($wsdl,$targetNamespace,$service,$obj)

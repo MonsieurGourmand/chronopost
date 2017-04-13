@@ -118,9 +118,15 @@
 
     dump($result);
 
-    $getSkybill = new \Chronopost\Request\Shipping\GetReservedSkybillWithTypeAndMode();
-    $getSkybill->setReservationNumber($result->reservationNumber);
+    //$getSkybill = new \Chronopost\Request\Shipping\GetReservedSkybillWithTypeAndMode();
+    //$getSkybill->setReservationNumber($result->reservationNumber);
 
-    $result = $client->shipping->getReservedSkybillWithTypeAndMode($getSkybill);
+    //$result = $client->shipping->getReservedSkybillWithTypeAndMode($getSkybill);
+    //dump($result);
+
+    dump($result->resultParcelValue->skybillNumber);
+    $skybill = new \Chronopost\Request\Tracking\Skybill();
+    $skybill->setSkybillNumber($result->resultParcelValue->skybillNumber);
+    $result = $client->tracking->cancel($skybill);
     dump($result);
 ?>
