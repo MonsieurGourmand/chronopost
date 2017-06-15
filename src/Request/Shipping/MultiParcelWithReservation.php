@@ -31,14 +31,30 @@ class MultiParcelWithReservation
     protected $recipientValue;
 
     /**
-     * @var Reference $refValue
+     * @var Reference[] $refValue
      */
     protected $refValue;
 
     /**
-     * @var Skybill $skybillValue;
+     * @var Skybill[] $skybillValue;
      */
     protected $skybillValue;
+
+    /**
+     * @param Reference $refValue
+     */
+    public function addRefValue($refValue)
+    {
+        $this->refValue[] = $refValue;
+    }
+
+    /**
+     * @param Skybill $skybillValue
+     */
+    public function addSkybillValue($skybillValue)
+    {
+        $this->skybillValue[] = $skybillValue;
+    }
 
     /**
      * @var SkybillParams $skybillParams
@@ -116,15 +132,6 @@ class MultiParcelWithReservation
         return $this;
     }
 
-    /**
-     * @param Reference $refValue
-     * @return MultiParcelWithReservation
-     */
-    public function setRefValue($refValue)
-    {
-        $this->refValue = $refValue;
-        return $this;
-    }
 
     /**
      * @param string $multiParcel
@@ -163,16 +170,6 @@ class MultiParcelWithReservation
     public function setPassword($password)
     {
         $this->password = $password;
-        return $this;
-    }
-
-    /**
-     * @param Skybill $skybillValue
-     * @return MultiParcelWithReservation
-     */
-    public function setSkybillValue($skybillValue)
-    {
-        $this->skybillValue = $skybillValue;
         return $this;
     }
 
