@@ -18,7 +18,11 @@ class Chronopost {
 
     public function request($wsdl,$targetNamespace,$service,$obj)
     {
-        $client = new \SoapClient($wsdl,array("trace" => 1));
+        try {
+            $client = new \SoapClient($wsdl,array("trace" => 1,'cache_wsdl' => WSDL_CACHE_NONE));
+        } catch (\Exception $e) {
+            echo 'Exception reçue : ',  $e->getMessage(), "\n";
+        }
         $headers[]= new \SoapHeader($targetNamespace, 'accountNumber', $this->accountNumber);
         $headers[]= new \SoapHeader($targetNamespace, 'password', $this->pass);
         $client->__setSoapHeaders($headers);
