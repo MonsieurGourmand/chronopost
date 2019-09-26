@@ -197,4 +197,9 @@ class MultiParcelWithReservation
     {
         $this->skybillValue = [];
     }
+    
+    public function resetRefValue()
+    {
+        $this->refValue = [];
+    }
 }
