@@ -192,4 +192,9 @@ class MultiParcelWithReservation
         $this->scheduledValue = $scheduledValue;
         return $this;
     }
+    
+    public function resetSkybillValue()
+    {
+        $this->skybillValue = [];
+    }
 }
