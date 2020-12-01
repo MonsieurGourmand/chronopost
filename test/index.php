@@ -7,6 +7,26 @@
 
     $client = new \Chronopost\Chronopost("19869502","255562");
 
+
+    $skybill = new \Chronopost\Request\Tracking\Skybill();
+    $skybill->setSkybillNumber("XT206060674FR");
+    $result = $client->tracking->track($skybill);
+    dump($result);
+
+
+    $search = new \Chronopost\Request\Tracking\Search();
+    $search
+        ->setDateDeposit("01/10/2020")
+        ->setDateEndDeposit("31/10/2020")
+        ->setParcelState("ANY")
+        ->setAccountNumber("19869502")
+        ->setPassword("255562");
+    $result = $client->tracking->search($search);
+    dump($result);
+
+
+    exit;
+
     $shipperAddress = new \Chronopost\Request\Address();
     $shipperAddress->setAddress1('254 rue Francis de Pressensé');
     $shipperAddress->setZipcode('69100');

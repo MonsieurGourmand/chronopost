@@ -3,7 +3,7 @@ namespace Chronopost\Route;
 
 use Chronopost\Request\Tracking\Skybill;
 use Chronopost\Request\Slot\Confirm;
-use \Chronopost\Request\Slot\Search;
+use Chronopost\Request\Tracking\Search;
 
 class Tracking
 {
@@ -12,6 +12,7 @@ class Tracking
     /** Services */
     protected $cancelSkybill = "cancelSkybill";
     protected $trackSkybill = "trackSkybill";
+    protected $trackSearch = "trackSearch";
 
     /** @var string */
     protected $entity;
@@ -31,5 +32,10 @@ class Tracking
     public function track(Skybill $skybill)
     {
         return $this->master->request($this->wsdl,$this->targetNamespace,$this->trackSkybill,$skybill);
+    }
+
+    public function search(Search $search)
+    {
+        return $this->master->request($this->wsdl,$this->targetNamespace,$this->trackSearch,$search);
     }
 }
