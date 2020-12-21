@@ -7,7 +7,7 @@ use Chronopost\Request\Shipping\MultiParcelWithReservation;
 
 class Shipping
 {
-    protected $wsdl = "https://ws.chronopost.fr/shipping-cxf/ShippingServiceWS?wsdl";
+    protected $wsdl = "http://ws.chronopost.fr/shipping-cxf/ShippingServiceWS?wsdl";
     protected $targetNamespace = "http://cxf.shipping.soap.chronopost.fr/";
     /** Services */
     protected $shippingMultiParcelWithReservation = "shippingMultiParcelWithReservation";
