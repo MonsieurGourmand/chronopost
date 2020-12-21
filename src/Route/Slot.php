@@ -6,7 +6,7 @@ use \Chronopost\Request\Slot\Search;
 
 class Slot
 {
-    protected $wsdl = "https://ws.chronopost.fr/rdv-cxf/services/CreneauServiceWS?wsdl";
+    protected $wsdl = "http://ws.chronopost.fr/rdv-cxf/services/CreneauServiceWS?wsdl";
     protected $targetNamespace = "http://cxf.soap.ws.creneau.chronopost.fr/";
     /** Services */
     protected $searchDeliverySlot = "searchDeliverySlot";
