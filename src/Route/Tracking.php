@@ -7,7 +7,7 @@ use Chronopost\Request\Tracking\Search;
 
 class Tracking
 {
-    protected $wsdl = "https://ws.chronopost.fr/tracking-cxf/TrackingServiceWS?wsdl";
+    protected $wsdl = "http://ws.chronopost.fr/tracking-cxf/TrackingServiceWS?wsdl";
     protected $targetNamespace = "http://cxf.tracking.soap.chronopost.fr/";
     /** Services */
     protected $cancelSkybill = "cancelSkybill";
